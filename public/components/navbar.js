@@ -7,7 +7,7 @@ export default function Navbar() {
       <img class="nav-image" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/navbarImage.webp" alt="Logo" />
       <div class="nav-title-container">
         <a href="/" class="nav-title" data-link>YUVAKARSHAN</a>
-        <a href="/" class="nav-subtitle" data-link>2K25</a>
+        <a href="/" class="nav-subtitle" data-link>2K26</a>
       </div>
     </div>
     <div class="nav-hamburger">

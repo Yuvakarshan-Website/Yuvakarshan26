@@ -154,7 +154,7 @@ function render(path) {
         });
       } 
       else {
-        app.load('https://prod.spline.design/UYbxlgt2QCwCQTMH/scene.splinecode').then(() => {
+        app.load('https://prod.spline.design/bgX-AFhVeuMiutiB/scene.splinecode').then(() => {
         document.getElementById('loader').classList.add('fade-out');
         let size = (window.innerWidth/1366)*2.6;
         app.setVariable('Size', size);
