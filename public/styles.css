@@ -2,7 +2,7 @@
 @font-face { font-family: Kaivalya; src: url('/assets/fonts/KaivalyaIkiikocom-0Wy9r.otf'); } 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Poppins");
-@font-face { font-family: Uncial; src: url('UncialAntiqua-Regular.ttf'); } 
+@font-face { font-family: Uncial; src: url('/assets/fonts/UncialAntiqua-Regular.ttf'); } 
 
 
 
@@ -69,39 +69,6 @@ body {
 
 
 /*home*/
-.signOff {
-  position: fixed;
-  height: 5rem;
-  width: 5rem;
-  top: 7rem;
-  left: 4rem;
-  z-index: 99;
-  padding: 0.5rem;
-  box-sizing: border-box;
-  background-image: 
-  radial-gradient(
-      circle at center center,
-      #ff6a00cc 0%,
-      rgba(255, 255, 255, 0) 65%
-    );
-  border-radius: 50%;
-}
-
-.signOffImg {
-  height: 100%;
-  width: 100%;
-  z-index: 100;
-}
-
-.signOffText {
-  position: fixed;
-  top: 7rem;
-  left: 4rem;
-  height: 2.8rem;
-  width: 40rem !important;
-  object-fit: fill !important;
-  display: block;
-}
 
 .scroll-prompt {
   position: fixed;
@@ -182,63 +149,70 @@ body {
   top: 40vh;
   font-family: "Montserrat", sans-serif;
   padding: 48px; /* 40px × 1.2 */
-  color: white;
+  color: rgb(185, 185, 185);
 }
 
 .welcome {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.16rem; /* 1.8rem × 1.2 */
+  font-size: clamp(1.35rem, 2.25vw, 2.25rem);
   letter-spacing: 0.48rem; /* 0.4rem × 1.2 */
   font-weight: 400;
 }
 
 .title {
   font-family: 'Uncial', sans-serif;
-  font-size: 4.8rem; /* 4rem × 1.2 */
+  font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 700;
   letter-spacing: 0.06rem; /* 0.05rem × 1.2 */
-  color: white;
+  background: linear-gradient(to bottom,#b867ff 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 10;
   text-shadow:
     0 0 8px rgba(255, 255, 255, 0.4),
     0 0 18px rgba(255, 255, 255, 0.4),
-    0 0 28px rgba(255, 255, 255, 0.4); /* ← original values restored */
+    0 0 28px rgba(255, 255, 255, 0.4); 
 }
 
 .subtitle {
-  margin-right: -1rem;
+  margin-right: 0rem;
   text-align: right;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
-  font-size: 3.12rem; /* 2.6rem × 1.2 */
+  font-size: clamp(1.95rem, 3.25vw, 3.25rem); /* 2.6rem × 1.2 */
   font-weight: 700;
-  color: #ffd700;
+  background: linear-gradient(#ffd700 0%, #ff9900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   letter-spacing: 0.48rem; /* 0.4rem × 1.2 */
   margin-top: -1.08rem; /* -0.9rem × 1.2 */
   text-shadow:
-    0 0 8px #ffd900a2,
-    0 0 16px #ffd700a2,
-    0 0 24px #ffea00a2; /* ← original glow restored */
+    0 0 8px #ffd700a2,
+    0 0 16px #fff700a2,
+    0 0 24px #ffc800a2; /* ← original glow restored */
 }
 
 .subtitle::before {
   content: "";
   position: absolute;
-  right: clamp(11.8rem, 12.5vw, 14.5rem);
-  top: 12rem; /* 9.7rem × 1.2 */
-  width: clamp(30rem, 31vw, 60rem); /* 24vw × 1.2 */
+  right: clamp(10rem, 13.54vw, 13.54rem);
+  top: clamp(8.5rem, 12.5vw, 12.5rem); /* 9.7rem × 1.2 */
+  width: clamp(20.2rem, 34vw, 45rem); /* 24vw × 1.2 */
   height: 2.4px; /* 2px × 1.2 */
-  background: #ffd700;
+  background: linear-gradient(to right, #ffd700, #ff9500);
 }
 
 .tagline {
-  margin-top: -1.8rem; /* -1rem × 1.2 */
-  margin-left: -0.8rem;
+  margin-top: clamp(-2rem,-1.8vw, -0.8rem); /* -1rem × 1.2 */
+  margin-left: 0rem;
   font-style: italic;
   font-size: 1.2rem; /* 1.3rem × 1.2 */
-  font-weight: 100;
+  font-weight: 900;
   letter-spacing: 0.15rem; /* 2rem × 1.2 */
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.834);
+  background: linear-gradient(to right, #006eff 0%, #00ff40 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: relative;
 }
 
@@ -585,24 +559,17 @@ body {
   }
 
   .title {
-    font-size: 10.5vw;
-    text-shadow:
-    0 0 4px rgba(255, 255, 255, 0.4),
-    0 0 16px rgba(255, 255, 255, 0.4),
-    0 0 14px rgba(255, 255, 255, 0.4);
+    font-size: 9.5vw;
   }
 
   .subtitle {
-    font-size: 7vw;
+    font-size: 6vw;
+    margin-right: -1.2rem;
     margin-top: -0.6rem; 
-    text-shadow:
-    0 0 4px #ffd900a2,
-    0 0 8px #ffd700a2,
-    0 0 12px #ffea00a2;
   }
 
   .subtitle::before {
-    left: 3vw;
+    left: 5vw;
     top: 23.5vw; /* 9.7rem × 1 */
     width: 58vw; /* 24vw × 1.2 */
   }
@@ -610,7 +577,7 @@ body {
   .tagline {
     display: flex;
     width: 60vw;
-    margin-top: -1rem;
+    margin-top: -0.6rem;
     margin-left: 0.01rem;
     font-size: 0.7rem;
     letter-spacing: 0.2rem;
