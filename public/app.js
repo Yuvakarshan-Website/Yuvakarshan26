@@ -143,7 +143,7 @@ function render(path) {
       const app = new Application(canvas);
 
       if (isPortrait) {
-          app.load('https://prod.spline.design/dvDgIP6WrikB45aj/scene.splinecode').then(() => {
+          app.load('https://prod.spline.design/I8bIE3VFK0-v5b2B/scene.splinecode').then(() => {
           document.getElementById('loader').classList.add('fade-out');
           const targetObject = app.findObjectByName('yuva');
           handlePortraitScroll(targetObject, window.scrollY || window.pageYOffset);

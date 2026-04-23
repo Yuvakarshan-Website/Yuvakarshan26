@@ -2,6 +2,8 @@
 @font-face { font-family: Kaivalya; src: url('/assets/fonts/KaivalyaIkiikocom-0Wy9r.otf'); } 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+@font-face { font-family: Uncial; src: url('UncialAntiqua-Regular.ttf'); } 
+
 
 
 html {
@@ -23,17 +25,17 @@ body {
 
 .homeBg, .eventDetailsBg, .events-page, .repsEvent, .galleryBg, .lotteryBg, .events-page-day-2, .events-page-buffer {
   background-image: 
-    radial-gradient(
-      circle at top center,
-      rgba(0, 0, 0, 0.8) 0%,
-      rgba(255, 255, 255, 0) 200%
-    ),
-    url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/homeBackground.webp');
-  background-size: cover;
+    url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/homeBackground.webp');
+  background-size: cover; 
+  backdrop-filter: blur(30px);
   background-position: center;
   background-repeat: no-repeat;
   color: rgb(0, 0, 0);
   overflow: hidden;
+}
+
+.homeBg::after, .eventDetailsBg::after, .events-page::after, .repsEvent::after, .galleryBg::after, .lotteryBg::after, .events-page-day-2::after, .events-page-buffer::after {
+  backdrop-filter: blur(30px);
 }
 
 .home {height: 625vh; padding: 2rem;}
@@ -191,6 +193,7 @@ body {
 }
 
 .title {
+  font-family: 'Uncial', sans-serif;
   font-size: 4.8rem; /* 4rem × 1.2 */
   font-weight: 700;
   letter-spacing: 0.06rem; /* 0.05rem × 1.2 */

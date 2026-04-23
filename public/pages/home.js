@@ -10,7 +10,7 @@ export default function Home() {
       <div class="welcome">9TH & 10TH JULY</div>
       <div class="title">YUVAKARSHAN</div>
       <div class="subtitle">2K26</div>
-      <div class="tagline">Rise Like a Phoenix, Reign Like a God</div>
+      <div class="tagline">Myth, Magic, Mayhem.</div>
     </div> 
     
     <div class="scroll-prompt">
