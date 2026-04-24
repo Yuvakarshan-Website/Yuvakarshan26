@@ -165,6 +165,8 @@ body {
   font-weight: 700;
   letter-spacing: 0.06rem; /* 0.05rem × 1.2 */
   background: linear-gradient(to bottom,#b867ff 0%, #ffffff 100%);
+  background-clip: text;
+  color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 10;
@@ -181,12 +183,14 @@ body {
   font-style: italic;
   font-size: clamp(1.95rem, 3.25vw, 3.25rem); /* 2.6rem × 1.2 */
   font-weight: 700;
-  background: linear-gradient(#ffd700 0%, #ff9900 100%);
+  background: linear-gradient(to right, #eaff00 0%, #ff5900 100%);
+  background-clip: text;
+  color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 0.48rem; /* 0.4rem × 1.2 */
   margin-top: -1.08rem; /* -0.9rem × 1.2 */
-  text-shadow:
+    text-shadow:
     0 0 8px #ffd700a2,
     0 0 16px #fff700a2,
     0 0 24px #ffc800a2; /* ← original glow restored */
@@ -197,7 +201,7 @@ body {
   position: absolute;
   right: clamp(10rem, 13.54vw, 13.54rem);
   top: clamp(8.5rem, 12.5vw, 12.5rem); /* 9.7rem × 1.2 */
-  width: clamp(20.2rem, 34vw, 45rem); /* 24vw × 1.2 */
+  width: clamp(20.2rem, 34vw, 35rem); /* 24vw × 1.2 */
   height: 2.4px; /* 2px × 1.2 */
   background: linear-gradient(to right, #ffd700, #ff9500);
 }
@@ -210,7 +214,7 @@ body {
   font-weight: 900;
   letter-spacing: 0.15rem; /* 2rem × 1.2 */
   text-transform: uppercase;
-  background: linear-gradient(to right, #006eff 0%, #00ff40 100%);
+  background: linear-gradient(to right, #006eff 0%, #00ff40 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -260,13 +264,14 @@ body {
   background-color: rgba(255, 189, 122, 0.05);
   backdrop-filter: blur(30px);
   border-radius: 20px;
+  border: 3px solid rgb(96, 163, 167);
   padding: 2.2rem 2rem;
   position: relative;
   z-index: 1;
   box-shadow: 
-    0 0 8px rgba(255, 187, 1, 0.852),
-    0 0 16px rgba(255, 215, 0, 0.2),
-    0 0 24px rgba(255, 215, 0, 0.1);
+    0 0 8px rgba(1, 255, 175, 0.852),
+    0 0 16px rgba(0, 255, 255, 0.2),
+    0 0 24px rgba(0, 98, 255, 0.1);
 }
 
 .YuvaHist p{
@@ -275,14 +280,21 @@ body {
 
 .YuvaHist.Title {
   box-shadow: 
-    0 0 8px rgba(163, 65, 0, 0.852),
-    0 0 16px rgba(255, 77, 0, 0.2),
-    0 0 24px rgba(255, 115, 0, 0.1);
+    0 0 12px rgb(215, 0, 107),
+    0 0 20px rgba(255, 0, 217, 0.2),
+    0 0 28px rgba(255, 0, 255, 0.1);
   border-radius: 10px;
+   border: 3px solid rgb(167, 96, 156);
   font-size: 2.4rem;
-  font-family: 'Kaivalya', sans-serif !important;
+  font-family: 'Uncial', sans-serif !important;
   text-transform: uppercase;
-  color: #ffd700;
+  background: linear-gradient(to right, #f2ff00 0%, #ff4800 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+    0 0 8px #ffd700a2,
+    0 0 16px #fff700a2,
+    0 0 24px #ffc800a2;
   backdrop-filter: blur(6px);
 
 }
@@ -560,6 +572,7 @@ body {
 
   .title {
     font-size: 9.5vw;
+    width:fit-content;
   }
 
   .subtitle {
@@ -1683,7 +1696,7 @@ body {
   right: 0;
   margin-top: 1rem;
   height: fit-content;
-  background-color: rgba(255, 189, 122, 0.05);
+  background-color: rgba(86, 0, 107, 0.175);
   backdrop-filter: blur(6px);
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: flex;
@@ -1698,7 +1711,7 @@ body {
   background-image: 
     radial-gradient(
       ellipse at center center,
-      rgba(255, 255, 255, 0.22) 0%,
+      rgba(246, 127, 255, 0.22) 0%,
       rgba(255, 255, 255, 0) 70%
     );
   display: flex;

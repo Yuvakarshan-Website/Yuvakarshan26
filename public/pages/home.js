@@ -62,7 +62,7 @@ export default function Home() {
           <a href="https://instagram.com/yuvakarshan2k25/">Socials</a>
         </div>
       </div>
-      <img class="HomeNavFrame" loading="eager" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/HomeNavFrame.webp"></img>
+      <img class="HomeNavFrame" loading="eager" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/HomeNavFrame.webp"></img>
     </div>
     <div class="dpsnHist">
       <div class="dpsnHistText"> DPS Newtown, under the aegis of the DPS society is a state-of-the-art modern school, the only DPS situated in the heart of Newtown. Spread over a sprawling 12-acre plush campus, the school is equipped with the best of amenities, giving the students ample opportunities to manifest their talents. <br><br>
@@ -71,7 +71,7 @@ export default function Home() {
     </div>
     <div class="footer">
       <div class="footer-content">
-        <a href="https://www.instagram.com/yuvakarshan2k25/" target="_blank" rel="noopener" aria-label="Instagram" class="footer-icon instagram" >
+        <a href="https://www.instagram.com/yuvakarshan_2k26/" target="_blank" rel="noopener" aria-label="Instagram" class="footer-icon instagram" >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
             <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm4.75-.75a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5z"/>
           </svg>
