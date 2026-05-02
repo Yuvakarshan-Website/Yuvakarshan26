@@ -4,7 +4,7 @@ export const eventData = {
     name: "Nazakat",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/14.webp",
     segment: "Kalpana",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.png",
     subject: "Fashion Show",
     description:`
     <strong>Guidelines:</strong><br>
@@ -53,7 +53,7 @@ export const eventData = {
     name: "Nritya Katha",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/13.webp",
     segment: "Kalpana",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.png",
     subject: "Dance",
     description:`
     <strong>Guidelines:</strong><br>
@@ -102,7 +102,7 @@ export const eventData = {
     name: "Raaga Rock",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/16.webp",
     segment: "Kalpana",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.png",
     subject: "Western Music",
     description:`
     <strong>Guidelines:</strong><br>
@@ -154,7 +154,7 @@ export const eventData = {
     name: "Raaga Sangam",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/17.webp",
     segment: "Kalpana",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.png",
     subject: "Eastern Music",
     description:`
     <strong>Guidelines:</strong><br>
@@ -186,7 +186,7 @@ export const eventData = {
     name: "Leela Manch",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/12.webp",
     segment: "Kalpana",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.png",
     subject: "Turncoat Debate Inspired Acting",
     description:`
     <strong>Guidelines:</strong><br>
@@ -236,7 +236,7 @@ export const eventData = {
     name: "Nukkad Natak",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/15.webp",
     segment: "Kalpana",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.png",
     subject: "Street Play",
     description:`
     <strong>Guidelines:</strong><br>
@@ -293,7 +293,7 @@ export const eventData = {
     name: "Vrittanta",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/18.webp",
     segment: "Kalpana",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.png",
     subject: "E-Magazine + Photography",
     description: `
     <strong>Guidelines:</strong><br>
@@ -355,7 +355,7 @@ export const eventData = {
     name: "Antakshari",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/11.webp",
     segment: "Kalpana",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.png",
     subject: "Antakshari",
     description:`
     <strong>Guidelines:</strong><br>
@@ -421,7 +421,7 @@ export const eventData = {
     name: "Vanijya Verse",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/9.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
     subject: "All-Round Commerce Event",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -465,7 +465,7 @@ export const eventData = {
     name: "Kubera Kapital",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/8.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
     subject: "Stock Exchange",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -522,7 +522,7 @@ export const eventData = {
     name: "Arthashastra Arena",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/7.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
     subject: "Finance-Accounting IPO Based",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -583,7 +583,7 @@ export const eventData = {
     name: "Indra's Influence",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/6.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
     subject: "Marketing & Advertising",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -633,7 +633,7 @@ export const eventData = {
     name: "Vyapaar Yagna",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/10.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
     subject: "Shark Tank",
     description:`
     <strong>Important Rules:</strong><br>
@@ -687,7 +687,7 @@ export const eventData = {
     name: "Bodha Blitz",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/20.webp",
     segment: "Karigari Hub",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Quiz",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -716,7 +716,7 @@ export const eventData = {
     name: "Bheem's Bhojnalay",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/19.webp",
     segment: "Karigari Hub",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Cookery",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -772,7 +772,7 @@ export const eventData = {
     name: "Tarkanjali",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/23.webp",
     segment: "Karigari Hub",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Debate",
    description:`
     <strong>General Guidelines:</strong><br>
@@ -816,7 +816,7 @@ export const eventData = {
     name: "Maya Mandi",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/22.webp",
     segment: "Karigari Hub",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Poster Making + Marketing",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -878,7 +878,7 @@ export const eventData = {
     name: "Nyaya Yudh",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/24.webp",
     segment: "Karigari Hub",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Moot Court",
    description:`
     <strong>General Guidelines:</strong><br>
@@ -943,7 +943,7 @@ export const eventData = {
     name: "Chitrakatha",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/21.webp",
     segment: "Karigari Hub",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Short Film",
     description:`
     <strong>Theme: <strong>In the Blink of an Eye</strong><br><br>
@@ -991,12 +991,12 @@ export const eventData = {
   `
   },
 
-  // Vikram's Vision
+  // Magic
   '/VaigyanikVistaar': {
     name: "Vaigyanik Vistaar",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/5.webp",
-    segment: "Vikram's Vision",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
+    segment: "Magic",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Product Designing / Model Making",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1041,8 +1041,8 @@ export const eventData = {
   '/MechaYaan': {
     name: "Mecha Yaan",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/4.webp",
-    segment: "Vikram's Vision",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
+    segment: "Magic",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Robotics",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1091,8 +1091,8 @@ export const eventData = {
   '/CyberSiddhanta': {
     name: "Cyber Siddhanta",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/3.webp",
-    segment: "Vikram's Vision",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
+    segment: "Magic",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Competitive Coding",
     description:`   <strong>General Guidelines:</strong><br>
                     <ul>
@@ -1136,8 +1136,8 @@ export const eventData = {
   '/AppUrva': {
     name: "AppUrva",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/2.webp",
-    segment: "Vikram's Vision",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
+    segment: "Magic",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "App Development",
     description:`
     <strong>Topic: </strong>
@@ -1203,8 +1203,8 @@ export const eventData = {
   '/Anveshan': {
     name: "Anveshan",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/1.webp",
-    segment: "Vikram's Vision",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
+    segment: "Magic",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Magic.webp",
     subject: "Cryptography",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1268,7 +1268,7 @@ export const eventData = {
     name: "Radiant Rumble",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/37.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Valorant",
     description:`
     <strong>Date:</strong> 16th July<br><br>
@@ -1327,7 +1327,7 @@ export const eventData = {
     name: "IndraShock",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/36.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Fortnite",
     description:`
     <strong>Date:</strong> 18th July<br><br>
@@ -1423,7 +1423,7 @@ export const eventData = {
     name: "Chakravyuh",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/35.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "BGMI",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1502,7 +1502,7 @@ export const eventData = {
     name: "Agni Strikers",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/34.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "FIFA + Auction",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1572,7 +1572,7 @@ export const eventData = {
     name: "Hanuman's Combat",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/26.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Karate",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1607,7 +1607,7 @@ export const eventData = {
     name: "Shiv Sadhna",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/30.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Yoga",
     description:`
     <strong>Date:</strong> 18th July<br><br>
@@ -1669,7 +1669,7 @@ export const eventData = {
     name: "Sudarshan's Spin",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/31.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Cricket",
     description:`
     <strong>Date:</strong> 16th July<br><br>
@@ -1718,7 +1718,7 @@ export const eventData = {
     name: "Chakra League",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/25.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Football",
     description:`
     <strong>Date:</strong> 18th July<br><br>
@@ -1764,7 +1764,7 @@ export const eventData = {
     name: "Vaayu Smash",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/32.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Table Tennis",
     description:`
     <strong>Date:</strong> 16th July<br><br>
@@ -1810,7 +1810,7 @@ export const eventData = {
     name: "Rudra's Racquet",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/28.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Lawn Tennis",
     description:`
     <strong>Date:</strong> 15th July<br><br>
@@ -1843,7 +1843,7 @@ export const eventData = {
     name: "Vedic Race",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/33.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Relay Race",
     description:`
     <strong>Date:</strong>UPDATED TO 25TH JULY<br><br>
@@ -1883,7 +1883,7 @@ export const eventData = {
     name: "Neerangana",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/27.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Swimming",
     description:`
     <strong>Date:</strong> 15th July<br><br>
@@ -1927,7 +1927,7 @@ export const eventData = {
     name: "Shatranj",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/29.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
     subject: "Chess",
     description:`
     <strong>General Guidelines:</strong><br>

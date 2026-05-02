@@ -49,7 +49,7 @@ body {
       rgba(0, 0, 0, 0.6) 0%,
       rgba(255, 255, 255, 0) 150%
     ),
-    url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/eventDetailsBg.png');
+    url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/eventDetailsBg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1413,7 +1413,7 @@ body {
   height: clamp(34rem, 36vw, 82rem);
   width: clamp(34rem, 36vw, 82rem);
   left: 50%;
-  transform: translate(-52.5%, -50%);
+  transform: translate(-50%, -50%);
   top: 58.4svh;
   position: fixed;
   z-index: 1;
@@ -1421,7 +1421,7 @@ body {
 }
 
 .event-segment {
-  font-family: 'Kaivalya', sans-serif;
+  font-family: 'Uncial', sans-serif;
   position: fixed;
   top: 18svh;
   width: 100%;
@@ -1432,7 +1432,7 @@ body {
 }
 
 .event-name {
-  font-family: 'Kaivalya', sans-serif;
+  font-family: 'Uncial', sans-serif;
   position: fixed;
   top: 86svh;
   width: 100%;
@@ -1467,7 +1467,7 @@ body {
 .event-description {
   max-height: 5vh;
   width: 50vw;
-  background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/scrollParchment.webp');
+  background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/scrollBg.webp');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -1493,8 +1493,8 @@ body {
   transform: translateX(-50%);
   width: 77vw;
   height: 9.5vw;
-  background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/scrollRod.webp');
-  background-size: cover;
+  background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/scrollRod.webp');
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 120; /* Places it behind the scroll */

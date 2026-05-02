@@ -5,12 +5,9 @@ export default function eventDetails() {
   const data = eventData[path];
 
   const segmentStyles = {
-    'Kalpana': ['#FFA94D', '#7a3f00'],             // pastel orange, deep amber
-    'Karigari Hub': ['#B197FC', '#3f1d78'],        // lavender, dark violet
-    "Vikram's Vision": ['#63E6BE', '#1b5f48'],     // mint, forest green
-    "Chanakya's Council": ['#66D9E8', '#134b56'],  // cyan, deep teal
-    "Kartikeya's Combat": ['#FFD43B', '#665c00'],  // bright yellow, ochre
-    'Shastra-Byte': ['#FF6B6B', '#6b0000']          // coral, blood red
+    'Magic': ['#bf70e4', '#521969'],        // lavender, dark violet
+    "Myth": ['#4c6ace', '#2621b0'],  // cyan, deep teal
+    'Mayhem': ['#ff6be1', '#54002a']          // coral, blood red
   };
 
   const [fontColor, glowColor] = segmentStyles[data.segment] || ['#FFFFFF', '#000000'];
