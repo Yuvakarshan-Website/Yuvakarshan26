@@ -10,7 +10,9 @@ export default function Home() {
       <div class="welcome">9TH & 10TH JULY</div>
       <div class="title">YUVAKARSHAN</div>
       <div class="subtitle">2K26</div>
-      <div class="tagline">Myth, Magic, Mayhem.</div>
+      <div class="tagline"> <span style='color:rgb(115, 84, 255)'>MYTH</span> • 
+      <span style='color:rgb(171, 61, 255)'>MAGIC</span> •
+      <span style='color:rgb(255, 0, 238)'>MAYHEM</span> </div>
     </div> 
     
     <div class="scroll-prompt">

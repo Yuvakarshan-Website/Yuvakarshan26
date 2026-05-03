@@ -4,7 +4,7 @@ export default function Navbar() {
 
   nav.innerHTML = `
     <div class="nav-left" >
-      <a href="/" class="nav-title" data-link><img class="nav-image" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/navbarImage.webp" alt="Logo" /></a>
+      <a href="/" class="nav-title" data-link><img class="nav-image" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/navbarImage.png" alt="Logo" /></a>
     </div>
     <div class="nav-hamburger">
       <span class="nav-hamburger-bar"></span>
