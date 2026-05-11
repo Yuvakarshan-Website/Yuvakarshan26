@@ -7,7 +7,7 @@ export default function LotteryResults() {
       <section class="noticeBoardContainer">
         <div class="YuvaHist Title additional lottery-header">LOTTERY RESULTS</div>
         
-        <div class="notice-container result">
+        <!--<div class="notice-container result">
             <div class="lottery">
                 <h1 class='heading'> NAZAKAT </h1>
 
@@ -332,7 +332,7 @@ Time Period: 2018–2023<br/></td>
                 </tr>
               </tbody>
             </table>
-          </div>
+          </div> -->
         </div>
     </section>
   `;

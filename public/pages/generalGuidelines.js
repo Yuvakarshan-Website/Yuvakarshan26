@@ -21,7 +21,7 @@ export default function GeneralGuidelines() {
         • All schools are requested to check the <a href='/lotteryResults' class='notice-board-link' data-link>Lottery Results</a> of this website for viewing assigned themes and more.
         </p>
         
-        <p class="YuvaHist">
+        <!-- <p class="YuvaHist">
         <span class='header'>Order of Performance</span><br>
         • The order of performance will be -  <br /> <br />
 
@@ -44,7 +44,7 @@ export default function GeneralGuidelines() {
 	17.	The Future Foundation <br />
 	18.	The Heritage School <br />
 	19.	The Newtown School <br />
-        </p>
+        </p> -->
 
          
         
@@ -130,27 +130,64 @@ export default function GeneralGuidelines() {
 
         <p class="YuvaHist">
             📞 <span class='header'>For Queries regarding</span><br><br>
+            <span style="
+              background:linear-gradient(90deg,#00e5ff 0%,#7dff7d 50%,#b6ff00 100%);
+              -webkit-background-clip:text;
+              -webkit-text-fill-color:transparent;
+              font-weight:bold;
+            ">
+              Myth Segment:
+            </span><br>
 
-            <span>The Chanakya’s Council Segment:</span> Madhav Rathi <br>
-            &emsp; — <span class="phone-number">+91 79802 10952</span><br><br>
+            &emsp;Aahana Dhurve <br>
+            &emsp;&emsp;— <span class="phone-number">+91 98317 12538</span><br>
+            &emsp;Arush Jaiswal<br>
+            &emsp;&emsp;— <span class="phone-number">+91 6290 378 588</span>
 
-            <span>The Vikram’s Vision Segment:</span> Soham Kumar Sahu <br>
-            &emsp; — <span class="phone-number">+91 84202 83661</span><br><br>
+            <br><br>
 
-            <span>The Kartikeya’s Combat Segment:</span> Aryaman Tandon <br>
-            &emsp; — <span class="phone-number">+91 98315 22448</span ><br><br>
+            <span style="
+              background:linear-gradient(90deg,#fff27a 0%,#ffc04d 50%,#ff7a18 100%);
+              -webkit-background-clip:text;
+              -webkit-text-fill-color:transparent;
+              font-weight:bold;
+            ">
+              Magic Segment:
+            </span><br>
 
-            <span>The Kalpana Segment:</span> Sarengi Sarkar <br>
-            &emsp; — <span class="phone-number">+91 70011 36112</span><br><br>
+            &emsp;Saanvi Deb Choudhury<br>
+            &emsp;&emsp;— <span class="phone-number">+91 6291 118 689</span><br>
+            &emsp;Sagarika Bhar<br>
+            &emsp;&emsp;— <span class="phone-number">+91 90516 44245</span>
 
-            <span>The Shastra Byte Segment:</span> Urjjossan Samanta <br>
-            &emsp; — <span class="phone-number">+91 8337-075025</span><br><br>
+            <br><br>
 
-            <span>The Karigari Hub Segment:</span> Visesh Nair <br>
-            &emsp; — <span class="phone-number">+91 89285 35210</span><br><br>
+            <span style="
+              background:linear-gradient(90deg,#ff4fd8 0%,#c86bff 50%,#4da6ff 100%);
+              -webkit-background-clip:text;
+              -webkit-text-fill-color:transparent;
+              font-weight:bold;
+            ">
+              Mayhem Segment:
+            </span><br>
 
-            <span>General Queries and Doubts:</span class='header'> Richa Dikshit <br>
-            &emsp; — <span class="phone-number">+91 85850 16397</span>
+            &emsp;Shubhashree Panda<br>
+            &emsp;&emsp;— <span class="phone-number">+91 79 7892 3306</span>
+
+            <br><br>
+
+            <span style="
+              background:linear-gradient(90deg,#00e5ff 0%,#ff4fd8 100%);
+              -webkit-background-clip:text;
+              -webkit-text-fill-color:transparent;
+              font-weight:bold;
+            ">
+              General Queries:
+            </span><br>
+
+            <span class="phone-number">
+            Please feel free to message any of the above for general queries.
+            </span>
         </p>
 
     </section>

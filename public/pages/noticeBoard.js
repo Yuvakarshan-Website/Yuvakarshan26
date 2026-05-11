@@ -11,13 +11,13 @@ export default function NoticeBoard() {
         
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">🚨 📌 Rudra's Racquet and Vedic Race postponed until further notice<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 14th July </span></button>
+                  <button class="accordion-button">📌 No New Notices<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th May </span></button>
                   <div class="accordion-content">
-                    <p>Due to rain forecast, Rudra's Racquet and Vedic Race has been postponed until further notice </p>
+                    <p>Please regularly check this page for all important updates!</p>
                   </div>
                 </div>
             </div>
-            
+            <!--
             <div class="notice">
                 <div class="accordion">
                   <button class="accordion-button">🚨 📌 All events on July 17th postponed to July 18th<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
@@ -133,6 +133,7 @@ export default function NoticeBoard() {
                 </div>
             </div>
         </div>
+        -->
     </section>
 
   `;
