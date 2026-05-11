@@ -217,9 +217,9 @@ body {
   text-transform: uppercase;
   position: relative;
   text-shadow:
-    0 0 8px #5d00ffa2,
+    0 0 8px #00ff6676,
     0 0 16px #b300ffa2,
-    0 0 24px #ff00cca2;
+    0 0 24px #2200ffa2;
 }
 
 #canvasContainer {
@@ -1751,7 +1751,7 @@ body {
 }
 
 .nav-image {
-  height: 10rem;
+  height: 18rem;
   width: auto;
 }
 
@@ -1860,7 +1860,7 @@ body {
   }
 
   .nav-image {
-    height: 6rem !important;
+    height: 10rem !important;
     margin-left: -1rem;
   }
 
@@ -2114,4 +2114,98 @@ body {
 #loader.fade-out {
   opacity: 0;
   visibility: hidden;
+}
+
+/*fonts*/
+@font-face {
+    font-family: Kaivalya;
+    src: url('/assets/fonts/KaivalyaIkiikocom-0Wy9r.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@font-face {
+    font-family: Uncial;
+    src: url('/assets/fonts/UncialAntiqua-Regular.ttf');
+}
+
+/* neon nexus reveal box */
+
+.ComingSoon {
+    position: relative;
+    top: 25lvh;
+    width: 460px;
+    height: 150px;
+
+    margin: 100px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(18, 24, 40, 0.95),
+            rgba(6, 10, 20, 0.98)
+        );
+
+    border: 2px solid rgba(0, 255, 255, 0.35);
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 0 10px rgba(0, 255, 255, 0.5),
+        0 0 30px rgba(0, 255, 255, 0.25),
+        inset 0 0 18px rgba(0, 255, 255, 0.08),
+        inset 0 0 40px rgba(255, 0, 170, 0.08);
+}
+
+.ComingSoon::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            120deg,
+            transparent 15%,
+            rgba(0, 255, 255, 0.12) 45%,
+            rgba(255, 0, 180, 0.15) 55%,
+            transparent 85%
+        );
+
+    animation: scanline 4s linear infinite;
+}
+
+.ComingSoon::after {
+    content: "Revealing Soon";
+
+    position: relative;
+    z-index: 2;
+
+    font-family: Kaivalya, Poppins, sans-serif;
+    font-size: 2.3rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+
+    color: #b8ffff;
+
+    text-shadow:
+        0 0 6px #00ffff,
+        0 0 16px #00ffff,
+        0 0 32px #ff00c8;
+}
+
+@keyframes scanline {
+    0% {
+        transform: translateX(-120%);
+    }
+
+    100% {
+        transform: translateX(120%);
+    }
 }

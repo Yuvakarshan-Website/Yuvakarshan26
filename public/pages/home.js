@@ -10,9 +10,38 @@ export default function Home() {
       <div class="welcome">9TH & 10TH JULY</div>
       <div class="title">YUVAKARSHAN</div>
       <div class="subtitle">2K26</div>
-      <div class="tagline"> <span style='color:rgb(115, 84, 255)'>MYTH</span> • 
-      <span style='color:rgb(171, 61, 255)'>MAGIC</span> •
-      <span style='color:rgb(255, 0, 238)'>MAYHEM</span> </div>
+      <div class="tagline"> 
+        <span style="
+            background: linear-gradient(90deg, #00e5ff 0%, #7dff7d 40%, #b6ff00 70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        ">
+            MYTH
+        </span>
+
+        <span style="color:white;"> • </span>
+
+        <span style="
+            background: linear-gradient(90deg, #fff27a 0%, #ffc04d 40%, #ff7a18 70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        ">
+            MAGIC
+        </span>
+
+        <span style="color:white;"> • </span>
+
+        <span style="
+            background: linear-gradient(90deg, #ff4fd8 0%, #c86bff 40%, #4da6ff 70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        ">
+            MAYHEM
+        </span>
+     </div>
     </div> 
     
     <div class="scroll-prompt">
@@ -26,21 +55,65 @@ export default function Home() {
         From the Yuvakarshan Directors' Desk
       </div>
       <p class="YuvaHist">
-         Derived from the Sanskrit term Yuvakarshan, meaning “the magnetic pull of the youth”, this fest serves as a tribute to youthful energy, intellectual curiosity, artistic expression, and an indomitable spirit. Yuvakarshan 2K25 distinguishes itself not merely by its scale or enthusiasm, but by the profound significance of its theme: Indian Mythology.
+         Derived from the Sanskrit term Yuvakarshan, meaning “the magnetic pull of the youth”, this fest serves as a tribute to youthful energy, intellectual curiosity, artistic expression, and an indomitable spirit. With Yuvakarshan 2K26, the fest evolves into a bold new dimension <b>Neon Nexus</b>, a vibrant convergence of electrifying energy, futuristic imagination and limitless connections. 
       </p>
       <p class="YuvaHist">
-      In 2025, the fest explores the enduring wisdom, courage, and mystique embedded in ancient Indian mythology. This thematic focus is not intended as a nostalgic reflection on the past, but as a meaningful engagement with narratives that continue to influence cultural identity and ethical values. The epics and legends that once shaped civilizations and inspired generations are revisited, revealing their relevance in a contemporary context and their capacity to inspire thought, purpose, and creativity.
+      Yuvakarshan is conceived as a multidimensional celebration of human potential. To ensure a comprehensive platform for diverse forms of talent and expression, the fest is structured into six distinct and purposefully curated segments:
       </p>
       <p class="YuvaHist">
-        Yuvakarshan is conceived as a multidimensional celebration of human potential. To ensure a comprehensive platform for diverse forms of talent and expression, the fest is structured into six distinct and purposefully curated segments:
+              To celebrate the limitless spectrum of expression and skill, the fest is organized into three powerful thematic divisions:
         <br><br> 
-          <span style='color:#ffd700'> &ensp;  ✧	Kartikeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
-          <span style='color:rgb(102, 222, 255)'> &ensp;  ✧	Chanakya’s Council </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Business) </span> <br>
-          <span style='color:rgb(222, 108, 42)'> &ensp;  ✧	Kalpana </span>  <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Creativity) </span> <br>
-          <span style='color:rgb(255, 74, 74)'> &ensp;  ✧	Shastra Byte </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (E-Sports) </span> <br>
-          <span style='color:rgb(170, 110, 255)'> &ensp;  ✧	Karigari Hub </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Skill-Based) </span> <br>
-          <span style='color:rgb(63, 227, 23)'> &ensp;  ✧	Vikram's Vision </span > <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Innovation) </span> <br><br>
-        Each segment draws inspiration from mythological archetypes, yet is designed to resonate with the aspirations and intellectual pursuits of the present generation.
+          <span style="
+              background: linear-gradient(90deg, #00e5ff 0%, #7dff7d 50%, #b6ff00 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-weight: bold;
+          ">
+              &ensp; ✧ Myth
+          </span>
+
+          <span style="color:white; font-style:italic;">
+              — A high-energy arena dedicated to Sports & E-Sports, where strategy,
+              teamwork, adrenaline, and competitive spirit collide in an atmosphere
+              charged with intensity and glory.
+          </span>
+
+          <br>
+
+          <span style="
+              background: linear-gradient(90deg, #fff27a 0%, #ffc04d 50%, #ff7a18 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-weight: bold;
+          ">
+              &ensp; ✧ Magic
+          </span>
+
+          <span style="color:white; font-style:italic;">
+              — A vibrant celebration of Creative Arts, showcasing imagination,
+              performance, music, dance, and artistic brilliance that transforms
+              ideas into unforgettable experiences.
+          </span>
+
+          <br>
+
+          <span style="
+              background: linear-gradient(90deg, #ff4fd8 0%, #c86bff 50%, #4da6ff 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-weight: bold;
+          ">
+              &ensp; ✧ Mayhem
+          </span>
+
+          <span style="color:white; font-style:italic;">
+              — A bold hub for Skill-Based Arts, Tech & Science, and Commerce,
+              where innovation meets chaos, pushing boundaries through intellect,
+              experimentation, entrepreneurship, and technical mastery.
+          </span>
+
+          <br>
+        Each division reflects a unique dimension of the Neon Nexus universe, a world illuminated by ambition, powered by creativity, and driven by the unstoppable energy of the next generation.
       </p>
     </div>
     <div class="HomeNav">
