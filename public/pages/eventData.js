@@ -55,9 +55,10 @@ export const eventData = {
   description: `
     <strong>General Guidelines:</strong><br>
     <ul>
-      <li><strong>Participants:</strong> 12 per school (7 players + 5 substitutes)[Boys]
+      <li><strong>Participants:</strong> 12 per school (7 players + 5 substitutes)[Boys/Girls]
         <ul>
-          <li>First 15 schools will be selected</li>
+          <li>Boys - First 15 schools will be selected</li>
+          <li>Girls - First 7 schools will be selected</li>
         </ul>
       </li>
       <li><strong>Duration:</strong>

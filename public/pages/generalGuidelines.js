@@ -80,7 +80,7 @@ export default function GeneralGuidelines() {
         <p class="YuvaHist">
         <span class='header'>Venue Etiquette</span><br>
         • Kindly follow the instructions of teachers, volunteers, and event in-charges in order to avoid any miscommunication.<br>
-        • Maintain cleanliness in all areas and dispose off litter responsibly.
+        • Maintain cleanliness in all areas and dispose of litter responsibly.
         </p>
 
         <p class="YuvaHist">
@@ -172,8 +172,9 @@ export default function GeneralGuidelines() {
             </span><br>
 
             &emsp;Shubhashree Panda<br>
-            &emsp;&emsp;— <span class="phone-number">+91 79 7892 3306</span>
-
+            &emsp;&emsp;— <span class="phone-number">+91 79 7892 3306</span><br>
+            &emsp;Arush Jaiswal<br>
+            &emsp;&emsp;— <span class="phone-number">+91 6290 378 588</span>
             <br><br>
 
             <span style="
