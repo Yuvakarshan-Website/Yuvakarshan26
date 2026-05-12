@@ -12,64 +12,64 @@ export default function EventsDay2() {
 
         <div class="card-container">
           <div class="card-grid "> 
-            <a href="/RaagaRock" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/16.webp" alt="Raaga Rock">
-              <div class="card-title">Raaga <br /> Rock</div>
+            <a href="/LyricLoop" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/3.webp" alt="Lyric Loop">
+              <div class="card-title">Lyric <br /> Loop</div>
             </a>
 
-            <a href="/BodhaBlitz" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/20.webp" alt="Bodha Blitz">
-              <div class="card-title">Bodha <br /> Blitz</div>
+            <a href="/RockResonance" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/41.webp" alt="Rock Resonance">
+              <div class="card-title">Rock <br /> Resonance</div>
             </a>
 
-            <a href="/Nazakat" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/14.webp" alt="Nazakat">
-              <div class="card-title">Nazakat <br /> ‎ </div>
+            <a href="/RunwayProtocol" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/18.webp" alt="Runway Protocol">
+              <div class="card-title">Runway <br /> Protocol</div>
             </a>
 
-            <a href="/LeelaManch" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/12.webp" alt="Leela Manch">
-              <div class="card-title">Leela <br /> Manch</div>
+            <a href="/YkChronicles" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/17.webp" alt="YK Chronicles">
+              <div class="card-title">YK <br /> Chronicles</div>
             </a>
 
-            <a href="/Chitrakatha" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/21.webp" alt="Chitrakatha">
-              <div class="card-title">Chitrakatha <br /> ‎ </div>
+            <a href="/PopPortraiture" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/32.webp" alt="Pop Portraiture">
+              <div class="card-title">Pop <br /> Portraiture</div>
             </a>
 
-            <a href="/AppUrva" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/2.webp" alt="AppUrva">
-              <div class="card-title">AppUrva <br /> ‎ </div>
+            <a href="/AppocalypseDev" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/4.webp" alt="Appocalypse Dev">
+              <div class="card-title">Appocalypse <br /> Dev</div>
             </a>
 
-            <a href="/VaigyanikVistaar" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/5.webp" alt="Vaigyanik Vistaar">
-              <div class="card-title">Vaigyanik <br /> Vistaar</div>
+            <a href="/ModelMint" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/27.webp" alt="Model Mint">
+              <div class="card-title">Model <br /> Mint</div>
             </a>
 
-            <a href="/VanijyaVerse" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/9.webp" alt="Vanijya Verse">
-              <div class="card-title">Vanijya <br /> Verse</div>
+            <a href="/ImProvex" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/23.webp" alt="Im Provex">
+              <div class="card-title">Im <br /> Provex</div>
             </a>
 
-            <a href="/Tarkanjali" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/23.webp" alt="Tarkanjali">
-              <div class="card-title">Tarkanjali <br /> ‎ </div>
+            <a href="/FunkFaceoff" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/43.webp" alt="Funk Faceoff">
+              <div class="card-title">Funk <br /> Faceoff</div>
             </a>
 
-            <a href="/Shatranj" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/29.webp" alt="Shataranj">
-              <div class="card-title">Shatranj <br /> ‎ </div>
+            <a href="/FloralFantasia" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/20.webp" alt="Floral Fantasia">
+              <div class="card-title">Floral <br /> Fantasia</div>
             </a>
 
-            <a href="/NyayaYudh" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/24.webp" alt="Nyaya Yudh">
-              <div class="card-title">Nyaya <br /> Yudh</div>
+            <a href="/SynthSoiree" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/26.webp" alt="Synth Soirée">
+              <div class="card-title">Synth <br /> Soirée</div>
             </a>
 
-            <a href="/VyapaarYagna" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/10.webp" alt="Vyapaar Yagna">
-              <div class="card-title">Vyapaar <br /> Yagna</div>
+            <a href="/XportExe" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/33.webp" alt="Xport Exe">
+              <div class="card-title">Xport <br /> Exe</div>
             </a>
    
           </div>

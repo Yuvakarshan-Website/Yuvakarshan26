@@ -8,7 +8,7 @@ export default function GeneralGuidelines() {
     <section class="GuidelinesContainer">
         <div class="YuvaHist Title">General Guidelines</div>
         <p class="YuvaHist">
-        To ensure a smooth and memorable experience for all, students attending Yuvakarshan 2K25 are requested to strictly adhere to the following guidelines:
+        To ensure a smooth and memorable experience for all, students attending Yuvakarshan 2K26 are requested to strictly adhere to the following guidelines:
         </p>  
 
         <p class="YuvaHist">
@@ -79,8 +79,8 @@ export default function GeneralGuidelines() {
 
         <p class="YuvaHist">
         <span class='header'>Venue Etiquette</span><br>
-        • Follow the instructions of teachers, volunteers, and event in-charges without fail.<br>
-        • Maintain cleanliness in all areas and dispose of litter responsibly.
+        • Kindly follow the instructions of teachers, volunteers, and event in-charges in order to avoid any miscommunication.<br>
+        • Maintain cleanliness in all areas and dispose off litter responsibly.
         </p>
 
         <p class="YuvaHist">

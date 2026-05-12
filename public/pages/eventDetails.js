@@ -5,12 +5,22 @@ export default function eventDetails() {
   const data = eventData[path];
 
   const segmentStyles = {
-    'Magic': ['#bf70e4', '#521969'],        // lavender, dark violet
-    "Myth": ['#4c6ace', '#2621b0'],  // cyan, deep teal
-    'Mayhem': ['#ff6be1', '#54002a']          // coral, blood red
-  };
+  Magic: {
+    gradient: ['#ffe554', '#FF8C00'], // yellow → orange
+  },
+  Myth: {
+    gradient: ['#5a99ff', '#04fc00'], // cyan → lime
+  },
+  Mayhem: {
+    gradient: ['#42a1ff', '#FF4FD8'], // blue → pink
+  }
+};
 
-  const [fontColor, glowColor] = segmentStyles[data.segment] || ['#FFFFFF', '#000000'];
+const style = segmentStyles[data.segment] || {
+  gradient: ['#FFFFFF', '#FFFFFF'],
+};
+
+const [startColor, endColor] = style.gradient;
 
   const container = document.createElement('div');
   container.className = 'eventDetails';
@@ -20,9 +30,11 @@ export default function eventDetails() {
 
       <div class="event-segment"
            style="
-             color: ${fontColor};
-             text-shadow: 0 0 4px ${glowColor}, 0 0 6px ${glowColor};
-           ">
+            background: linear-gradient(90deg, ${startColor}  40%, ${endColor} 60%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          "
+      >
         ${data.segment}
       </div>
       <div class="logoContainer">

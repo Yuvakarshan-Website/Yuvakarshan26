@@ -1410,7 +1410,7 @@ body {
 }
 
 .event-logo {
-  height: 218%;
+  height: 206%;
   pointer-events: none;
 }
 
@@ -1418,8 +1418,8 @@ body {
   height: clamp(34rem, 36vw, 82rem);
   width: clamp(34rem, 36vw, 82rem);
   left: 50%;
-  transform: translate(-50%, -50%);
-  top: 58.4svh;
+  transform: translate(-50.5%, -50%);
+  top: 55lvh;
   position: fixed;
   z-index: 1;
   pointer-events: none;

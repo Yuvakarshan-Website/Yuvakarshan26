@@ -58,7 +58,7 @@ export default function Home() {
          Derived from the Sanskrit term Yuvakarshan, meaning “the magnetic pull of the youth”, this fest serves as a tribute to youthful energy, intellectual curiosity, artistic expression, and an indomitable spirit. With Yuvakarshan 2K26, the fest evolves into a bold new dimension <b>Neon Nexus</b>, a vibrant convergence of electrifying energy, futuristic imagination and limitless connections. 
       </p>
       <p class="YuvaHist">
-      Yuvakarshan is conceived as a multidimensional celebration of human potential. To ensure a comprehensive platform for diverse forms of talent and expression, the fest is structured into six distinct and purposefully curated segments:
+      Yuvakarshan 2K26 is envisioned as a dynamic fusion of creativity, competition, innovation, and youthful ambition. Under the electrifying banner of Neon Nexus, the fest is designed as a multidimensional platform where talent from every domain converges, connects, and shines. 
       </p>
       <p class="YuvaHist">
               To celebrate the limitless spectrum of expression and skill, the fest is organized into three powerful thematic divisions:
@@ -134,7 +134,7 @@ export default function Home() {
           <a href="/lotteryResults" data-link>LOTTERY RESULTS</a>
         </div>
         <div class="grid-item right" style="grid-row: 3; grid-column: 2;">
-          <a href="https://instagram.com/yuvakarshan2k25/">Socials</a>
+          <a href="https://instagram.com/yuvakarshan_2k26/">Socials</a>
         </div>
       </div>
       <img class="HomeNavFrame" loading="eager" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/HomeNavFrame.webp"></img>

@@ -17,84 +17,104 @@ export default function Events() {
         
         <div class="card-container">
           <div class="card-grid ">
-            <a href="/RaagaSangam" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/17.webp" alt="Raaga Sangam">
-              <div class="card-title">Raaga <br /> Sangam</div>
+            <a href="/RagaResonance" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/16.webp" alt="Raga Resonance">
+              <div class="card-title">Raga <br /> Resonance</div>
             </a>
 
-            <a href="/Antakshari" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/11.webp" alt="Antakshari">
-              <div class="card-title">Antakshari <br /> ‎ </div>
+            <a href="/RhythmRapture" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/13.webp" alt="Rhythm Rapture">
+              <div class="card-title">Rhythm <br /> Rapture</div>
             </a>
 
-            <a href="/NrityaKatha" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/13.webp" alt="Nritya Katha">
-              <div class="card-title">Nritya <br /> Katha</div>
+            <a href="/IqInterface" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/29.webp" alt="IQ Interface">
+              <div class="card-title">IQ <br /> Interface</div>
             </a>
 
-            <a href="/Chakravyuh" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/35.webp" alt="Chakravyuh">
-              <div class="card-title">Chakravyuh <br /> ‎ </div>
+            <a href="/MarketMake" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/2.webp" alt="Market Make">
+              <div class="card-title">Market <br /> Make</div>
             </a>
 
-            <a href="/BheemsBhojnalay" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/19.webp" alt="Bheem's Bhojnalay">
-              <div class="card-title">Bheem's <br /> Bhojnalay</div>
+            <a href="/SilverScreen" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/34.webp" alt="Silver Screen">
+              <div class="card-title">Silver <br /> Screen</div>
             </a>
 
-            <a href="/MechaYaan" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/4.webp" alt="Mecha Yaan">
-              <div class="card-title">Mecha <br/> Yaan </div>
+            <a href="/YkChronicles" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/17.webp" alt="YK Chronicles">
+              <div class="card-title">YK <br /> Chronicles</div>
             </a>
 
-            <a href="/CyberSiddhanta" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/3.webp" alt="Cyber Siddhanta">
-              <div class="card-title">Cyber <br /> Siddhanta</div>
+            <a href="/StreetSaga" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/37.webp" alt="Street Saga">
+              <div class="card-title">Street <br /> Saga</div>
             </a>
 
-            <a href="/Anveshan" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/1.webp" alt="Anveshan">
-              <div class="card-title">Anveshan <br /> ‎ </div>
+            <a href="/HuesShades" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/8.webp" alt="Hues Shades">
+              <div class="card-title">Hues <br /> Shades</div>
             </a>
 
-            <a href="/ArthashastraArena" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/7.webp" alt="Arthashastra Arena">
-              <div class="card-title" style="font-size: 0.8rem;">Arthashastra <br /> Arena</div>
+            <a href="/LuminaDigitalis" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/15.webp" alt="Lumina Digitalis">
+              <div class="card-title">Lumina <br /> Digitalis</div>
             </a>
 
-            <a href="/IndrasInfluence" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/6.webp" alt="Indra's Influence">
-              <div class="card-title">Indra's <br /> Influence</div>
+            <a href="/VocalVortex" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/1.webp" alt="Vocal Vortex">
+              <div class="card-title">Vocal <br /> Vortex</div>
             </a>
 
-            <a href="/KuberaKapital" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/8.webp" alt="Kubera Kapital">
-              <div class="card-title">Kubera <br />Capital</div>
+            <a href="/LexSuprema" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/28.webp" alt="Lex Suprema">
+              <div class="card-title">Lex <br /> Suprema</div>
             </a>
 
-            <a href="/HanumansCombat" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/26.webp" alt="Hanuman's Combat">
-              <div class="card-title">Hanuman's<br /> Combat</div>
+            <a href="/QuillCore" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/10.webp" alt="Quill Core">
+              <div class="card-title">Quill <br /> Core</div>
             </a>
 
-            <a href="/Vrittanta" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/18.webp" alt="Vrittanta">
-              <div class="card-title">Vrittanta <br/> ‎ </div>
+            <a href="/GlobalBites" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/9.webp" alt="Global Bites">
+              <div class="card-title">Global <br /> Bites</div>
             </a>
 
-            <a href="/NukkadNatak" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/15.webp" alt="Nukkad Natak">
-              <div class="card-title">Nukkad <br /> Natak</div>
+            <a href="/CyberSynth" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/22.webp" alt="Cyber Synth">
+              <div class="card-title">Cyber <br /> Synth</div>
             </a>
 
-            <a href="/AgniStrikers" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/34.webp" alt="Agni Strikers">
-              <div class="card-title">Agni <br /> Strikers</div>
+            <a href="/CircuitCircus" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/30.webp" alt="Circuit Circus">
+              <div class="card-title">Circuit <br /> Circus</div>
             </a>
 
-            <a href="/MayaMandi" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/22.webp" alt="Maya Mandi">
-              <div class="card-title">Maya <br /> Mandi</div>
+            <a href="/StrikeGlitch" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/19.webp" alt="Strike Glitch">
+              <div class="card-title">Strike <br /> Glitch</div>
+            </a>
+
+            <a href="/VentureWarroom" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/36.webp" alt="Venture Warroom">
+              <div class="card-title">Venture <br /> Warroom</div>
+            </a>
+
+            <a href="/EmpireRebuild" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/12.webp" alt="Empire Rebuild">
+              <div class="card-title">Empire <br /> Rebuild</div>
+            </a>
+
+            <a href="/InkEcho" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/35.webp" alt="Ink Echo">
+              <div class="card-title">Ink <br /> Echo</div>
+            </a>
+
+            <a href="/VerbalCombat" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/14.webp" alt="Verbal Combat">
+              <div class="card-title">Verbal <br /> Combat</div>
             </a>
           </div>
         </div>
