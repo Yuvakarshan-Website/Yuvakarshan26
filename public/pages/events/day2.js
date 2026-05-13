@@ -79,7 +79,7 @@ export default function EventsDay2() {
     <button class="side-button left-button"><a href="/eventsDay1" data-link>&larr; Day 1</a></button>
 
     <!-- Fixed Right Button -->
-    <button class="side-button right-button"><a href="/eventsBuffer" data-link>Buffer &rarr;</a></button>
+    <button class="side-button right-button"><a href="/eventsBuffer" data-link>Axial &rarr;</a></button>
 
     <!-- page Center Label -->
     <div class="page-label">DAY TWO</div>

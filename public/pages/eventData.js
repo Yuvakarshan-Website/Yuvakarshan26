@@ -27,13 +27,13 @@ export const eventData = {
           </li>
         </ul>
       </li>
-      <li>The quiz will focus on general awareness with emphasis on technology and pop culture.</li>
+      <li>The quiz will focus on <b>general awareness with emphasis on technology and pop culture</b>.</li>
       <li>Only pens and water bottles are permitted during the event.</li>
       <li>Mobile phones, smartwatches, notes, books, or any electronic devices are strictly prohibited.</li>
       <li>Any unfair means or external assistance will result in immediate disqualification.</li>
       <li>Participants must report at least 5 minutes before the scheduled time.</li>
       <li>Organisers reserve the right to modify the format if necessary.</li>
-      <li>The Quiz Master’s decisions regarding questions, answers, and scoring will be final and binding.</li>
+      <li><b>The Quiz Master’s decisions regarding questions, answers, and scoring will be final and binding.</b></li>
     </ul>
 
     <strong>Judgment Criteria:</strong><br>

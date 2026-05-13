@@ -125,16 +125,16 @@ export default function Home() {
           <a href="/team" data-link>Team</a>
         </div>
         <div class="grid-item left" style="grid-row: 3; grid-column: 1;">
-          <a href="https://dpsnewtownkolkata.com/">About DPSN</a>
+          <a href="/noticeBoard" data-link>NOTICE BOARD</a>
         </div>
         <div class="grid-item right first" style="grid-row: 1; grid-column: 2;">
           <a href="/gallery" data-link>Gallery</a>
         </div>
         <div class="grid-item right" style="grid-row: 2; grid-column: 2;">
-          <a href="/lotteryResults" data-link>LOTTERY RESULTS</a>
+          <a href="https://instagram.com/yuvakarshan_2k26/" >Socials</a>
         </div>
         <div class="grid-item right" style="grid-row: 3; grid-column: 2;">
-          <a href="https://instagram.com/yuvakarshan_2k26/">Socials</a>
+          <a href="/lotteryResults" data-link>LOTTERY RESULTS</a>
         </div>
       </div>
       <img class="HomeNavFrame" loading="eager" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/HomeNavFrame.webp"></img>

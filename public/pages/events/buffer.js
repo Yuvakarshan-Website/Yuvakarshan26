@@ -78,7 +78,7 @@ export default function EventsBuffer() {
     <button class="side-button left-button"><a href="/eventsDay2" data-link>&larr; Day 2 </a> </button>
 
     <!-- page Center Label -->
-    <div class="page-label">Sports Week</div>
+    <div class="page-label">AXIAL WEEK</div>
     
     </section>
 

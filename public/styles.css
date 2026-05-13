@@ -940,6 +940,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.5rem;
+  width: max-content;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
   padding: 16px;
@@ -1419,7 +1420,7 @@ body {
   width: clamp(34rem, 36vw, 82rem);
   left: 50%;
   transform: translate(-50.5%, -50%);
-  top: 55lvh;
+  top: 55%;
   position: fixed;
   z-index: 1;
   pointer-events: none;
@@ -1447,7 +1448,7 @@ body {
 }
 
 .event-subject {
-  font-family: 'Uncial', sans-serif;  
+  font-family: 'Kaivalya', sans-serif;  
   width: 100vw;
   margin-top: -0.3rem;
   text-align: center;
@@ -1537,6 +1538,10 @@ body {
 }
 
 @media (max-aspect-ratio: 1.3/1) {
+
+  .event-segmentFrame {
+    top: 50%;
+  }
 
   .event-overlay {
     padding: 10rem 0rem;
