@@ -42,6 +42,11 @@ export default function EventsDay2() {
               <div class="card-title">Appocalypse <br /> Dev</div>
             </a>
 
+            <a href="/CyberSynth" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/22.webp" alt="Cyber Synth">
+              <div class="card-title">Cyber <br /> Synth</div>
+            </a>
+
             <a href="/ModelMint" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/27.webp" alt="Model Mint">
               <div class="card-title">Model <br /> Mint</div>
@@ -70,6 +75,11 @@ export default function EventsDay2() {
             <a href="/XportExe" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/33.webp" alt="Xport Exe">
               <div class="card-title">Xport <br /> Exe</div>
+            </a>
+
+            <a href="/AcesRacquets" data-link class="card">
+                <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/25.webp" alt="Aces Racquets">
+                <div class="card-title">Aces <br /> Racquets</div>
             </a>
    
           </div>

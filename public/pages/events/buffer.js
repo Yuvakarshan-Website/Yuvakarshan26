@@ -17,11 +17,6 @@ export default function EventsBuffer() {
                 <div class="card-title">Check <br /> Matrix</div>
               </a>
 
-              <a href="/AcesRacquets" data-link class="card">
-                <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/25.webp" alt="Aces Racquets">
-                <div class="card-title">Aces <br /> Racquets</div>
-              </a>
-
               <a href="/HoopHavoc" data-link class="card">
                 <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/6.webp" alt="Hoop Havoc">
                 <div class="card-title">Hoop <br /> Havoc</div>
@@ -67,10 +62,6 @@ export default function EventsBuffer() {
                 <div class="card-title">Pitch <br /> Protocol</div>
               </a>
 
-              <a href="/SpikeAttack" data-link class="card">
-                <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/40.webp" alt="Spike Attack">
-                <div class="card-title">Spike <br /> Attack</div>
-              </a>
           </div>
         </div>
  
