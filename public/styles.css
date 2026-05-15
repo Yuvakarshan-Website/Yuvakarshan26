@@ -1682,6 +1682,10 @@ body {
   font-size: clamp(1.2rem, 1.5vw, 1.5rem);
   font-weight: bold;
   transition: 0.3s ease;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
 }
 
 .accordion-button span{
@@ -1708,6 +1712,29 @@ body {
   max-height: 500px; /* or auto if using JS to set it */
   padding: 10px 20px;
 }
+.accordion-arrow{
+  width:0;
+  height:0;
+
+  border-left:8px solid transparent;
+  border-right:8px solid transparent;
+  border-top:12px solid #ffd700;
+
+  transition:transform 0.3s ease;
+
+
+  filter:
+    drop-shadow(0 0 3px rgba(255,215,0,.8))
+    drop-shadow(0 0 6px rgba(255,215,0,.5));
+
+  flex-shrink:0;
+}
+
+/* rotate when open */
+.accordion-button.active .accordion-arrow{
+  transform:rotate(180deg);
+}
+
 
 .notice::after {
   content: "";

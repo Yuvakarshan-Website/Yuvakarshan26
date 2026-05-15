@@ -11,9 +11,9 @@ export default function NoticeBoard() {
         
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">📌 No New Notices<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th May </span></button>
+                  <button class="accordion-button">📌 Event Schedule and Registration Changes <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 16th May </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
-                    <p>Please regularly check this page for all important updates!</p>
+                    <p>Events are currently being rearranged for better logistics. Capacity of Schools for each event may also change. Please adhere to all updates made on the website.</p>
                   </div>
                 </div>
             </div>
