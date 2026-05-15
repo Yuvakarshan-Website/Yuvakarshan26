@@ -12,19 +12,24 @@ export default function EventsDay2() {
 
         <div class="card-container">
           <div class="card-grid "> 
-            <a href="/LyricLoop" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/3.webp" alt="Lyric Loop">
-              <div class="card-title">Lyric <br /> Loop</div>
-            </a>
-
             <a href="/RockResonance" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/41.webp" alt="Rock Resonance">
               <div class="card-title">Rock <br /> Resonance</div>
             </a>
 
+            <a href="/IqInterface" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/29.webp" alt="IQ Interface">
+              <div class="card-title">IQ <br /> Interface</div>
+            </a>
+
             <a href="/RunwayProtocol" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/18.webp" alt="Runway Protocol">
               <div class="card-title">Runway <br /> Protocol</div>
+            </a>
+
+            <a href="/LexSuprema" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/28.webp" alt="Lex Suprema">
+              <div class="card-title">Lex <br /> Suprema</div>
             </a>
 
             <a href="/YkChronicles" data-link class="card">
@@ -77,10 +82,7 @@ export default function EventsDay2() {
               <div class="card-title">Xport <br /> Exe</div>
             </a>
 
-            <a href="/AcesRacquets" data-link class="card">
-                <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/25.webp" alt="Aces Racquets">
-                <div class="card-title">Aces <br /> Racquets</div>
-            </a>
+            
    
           </div>
         </div>

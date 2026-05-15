@@ -53,12 +53,13 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Football",
   description: `
+    [Tentative Date: 01/07/26] <br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants:</strong> 12 per school (7 players + 5 substitutes)[Boys/Girls]
         <ul>
-          <li>Boys - First 15 schools will be selected</li>
-          <li>Girls - First 7 schools will be selected</li>
+          <li>Boys - First 7 schools to register will be selected</li>
+          <li>Girls - First 7 schools to register will be selected</li>
         </ul>
       </li>
       <li><strong>Duration:</strong>
@@ -127,6 +128,7 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Karate",
   description: `
+    [Tentative Date: 02/07/26] <br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>No. of Participants:</strong> 2 per school (both can be boys, girls, or mixed)</li>
@@ -166,6 +168,7 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Chess",
   description: `
+    [Tentative Date: 01/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
       <li><strong>Participants per school:</strong> 2</li>
@@ -193,6 +196,7 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Swimming",
   description: `
+    [Tentative Date: 02/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
       <li><strong>Participants:</strong>
@@ -245,6 +249,7 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Basketball",
   description: `
+    [Tentative Date: 02/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
       <li><strong>No. of Participants:</strong> 8 participants (5+3) [Only Boys from classes XI - XII]</li>
@@ -281,6 +286,7 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Yoga",
   description: `
+    [Tentative Date: 01/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
       <li><strong>No. of Participants</strong>
@@ -334,6 +340,7 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Tennis",
   description: `
+    [Tentative Date: 02/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
       <li><strong>No. of Participants:</strong> 2+1(Boys / Girls)<br>
@@ -363,12 +370,13 @@ export const eventData = {
 },
 
 '/PingpongPrism': {
-  name: "pinpong.prism",
+  name: "pingpong.prism",
   logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/39.webp",
   segment: "Myth",
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Table Tennis",
   description: `
+    [Tentative Date: 02/07/26] <br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li>Participants per School: 4 total (3+1, if there are only 3 players, then the 3rd player has to participate in the doubles.)[Only Boys]</li>
@@ -410,6 +418,7 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Athletics",
   description: `
+    [Tentative Date: 02/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
       <li><strong>No. of Participants:</strong>
@@ -451,12 +460,13 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "Indoor cricket",
   description: `
+    [Tentative Date: 01/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
       <li>No. of Participants:
         <ul>
           <li>10 players per school (7 playing + 3 substitutes)(Only for Boys)</li>
-          <li>First 7 schools will be only allowed to participate</li>
+          <li>First 7 schools to register will be only allowed to participate</li>
         </ul>
       </li>
       <li>Format: Knockout tournament</li>
@@ -497,13 +507,14 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
   subject: "volleyball",
   description: `
+    [Tentative Date: 01/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
       <li>No. of participants:
         <ul>
           <li>Boys: 6 players + 6 substitutes</li>
           <li>Girls: 6 players + 6 substitutes</li>
-          <li>First 7 schools to register will only be allowed to play for both boys and girls.</li>
+          <li>First 7 schools to register will only be accepted for both boys and girls.</li>
         </ul>
       </li>
       <li>Format: A single elimination or knockout format will be followed. Two teams will play a match against each other. The winning teams will move on while the losing teams will be disqualified from the tournament.
@@ -1618,6 +1629,7 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
   subject: "Cryptography and Puzzle Hunt",
   description: `
+    [Tentative Start Date: 02/07/26] <br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li>Participants: 3 per school</li>

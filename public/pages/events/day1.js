@@ -17,6 +17,11 @@ export default function Events() {
         
         <div class="card-container">
           <div class="card-grid ">
+            <a href="/LyricLoop" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/3.webp" alt="Lyric Loop">
+              <div class="card-title">Lyric <br /> Loop</div>
+            </a>
+
             <a href="/RagaResonance" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/16.webp" alt="Raga Resonance">
               <div class="card-title">Raga <br /> Resonance</div>
@@ -25,11 +30,6 @@ export default function Events() {
             <a href="/RhythmRapture" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/13.webp" alt="Rhythm Rapture">
               <div class="card-title">Rhythm <br /> Rapture</div>
-            </a>
-
-            <a href="/IqInterface" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/29.webp" alt="IQ Interface">
-              <div class="card-title">IQ <br /> Interface</div>
             </a>
 
             <a href="/MarketMake" data-link class="card">
@@ -67,11 +67,6 @@ export default function Events() {
               <div class="card-title">Vocal <br /> Vortex</div>
             </a>
 
-            <a href="/LexSuprema" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/28.webp" alt="Lex Suprema">
-              <div class="card-title">Lex <br /> Suprema</div>
-            </a>
-
             <a href="/QuillCore" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/10.webp" alt="Quill Core">
               <div class="card-title">Quill <br /> Core</div>
@@ -80,11 +75,6 @@ export default function Events() {
             <a href="/GlobalBites" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/9.webp" alt="Global Bites">
               <div class="card-title">Global <br /> Bites</div>
-            </a>
-
-            <a href="/CyberSynth" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/22.webp" alt="Cyber Synth">
-              <div class="card-title">Cyber <br /> Synth</div>
             </a>
 
             <a href="/CircuitCircus" data-link class="card">
