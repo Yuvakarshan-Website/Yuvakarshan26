@@ -252,7 +252,7 @@ export const eventData = {
     [Tentative Date: 02/07/26] <br><br>
     <strong>Guidelines of the event:</strong><br>
     <ul>
-      <li><strong>No. of Participants:</strong> 8 participants (5+3) [Only Boys from classes XI - XII]</li>
+      <li><strong>No. of Participants:</strong> 8 participants (5+3) [Only Boys from classes IX - XII]</li>
       <li>2 quarters of 8 mins each, consisting of a 2min half-time with a timeout per quarter</li>
       <li>It is based on knockout format. The losing team of semi-finals will get a 30min break before their 3rd place match followed by the finals</li>
       <li>Final match will consist of 4 quarters, each of 6 mins, consisting of a 3 min half-time and 1 min quarter breaks</li>
