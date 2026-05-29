@@ -2044,7 +2044,7 @@ export const eventData = {
     <ul>
       <li>Participants: 6–8 per school</li>
       <li>Classes: IX–XII</li>
-      <li>Dress code: Plain black T-shirts or shirts with trousers only. Attire must be school-appropriate</li>
+      <li>Dress code: Plain black T-shirts or shirts with trousers or non ripped, non baggy jeans only. Attire must be school-appropriate</li>
       <li>Time limit: 8 minutes + 2 minutes setup</li>
       <li>Only one round will be held</li>
       <li>Only Western Rock/Metal/Pop music is allowed</li>
