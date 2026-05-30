@@ -63,7 +63,7 @@ const routes = {
   '/CyberSynth': eventDetails,
   '/ImProvex': eventDetails,
   '/DojoCircuit': eventDetails,
-  '/AcesRacquets': eventDetails,
+  '/AceRacquets': eventDetails,
   '/SynthSoiree': eventDetails,
   '/ModelMint': eventDetails,
   '/LexSuprema': eventDetails,

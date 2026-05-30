@@ -333,8 +333,8 @@ export const eventData = {
   `
 },
 
-'/AcesRacquets': {
-  name: "aces.racquets",
+'/AceRacquets': {
+  name: "ace.racquets",
   logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/25.webp",
   segment: "Myth",
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",

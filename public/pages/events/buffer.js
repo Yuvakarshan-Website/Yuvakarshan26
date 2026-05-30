@@ -62,9 +62,9 @@ export default function EventsBuffer() {
                 <div class="card-title">Pitch <br /> Protocol</div>
               </a>
 
-              <a href="/AcesRacquets" data-link class="card">
+              <a href="/AceRacquets" data-link class="card">
                 <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/25.webp" alt="Aces Racquets">
-                <div class="card-title">Aces <br /> Racquets</div>
+                <div class="card-title">Ace <br /> Racquets</div>
               </a>
 
           </div>
