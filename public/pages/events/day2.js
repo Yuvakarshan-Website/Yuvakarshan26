@@ -27,9 +27,9 @@ export default function EventsDay2() {
               <div class="card-title">Runway <br /> Protocol</div>
             </a>
 
-            <a href="/LexSuprema" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/28.webp" alt="Lex Suprema">
-              <div class="card-title">Lex <br /> Suprema</div>
+            <a href="/VerbalCombat" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/14.webp" alt="Verbal Combat">
+              <div class="card-title">Verbal <br /> Combat</div>
             </a>
 
             <a href="/YkChronicles" data-link class="card">

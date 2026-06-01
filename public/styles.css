@@ -72,16 +72,12 @@ body {
 
 .scroll-prompt {
   position: fixed;
-  top: 90vh;
+  top: 92svh;
   left: 50%;
   user-select: none;
   cursor: pointer;
   z-index: 999;
   transition: all 0.2s;
-}
-
-.scroll-prompt.team {
-  left: 56% !important;
 }
 
 .scroll-prompt.eventDetails {
@@ -94,12 +90,15 @@ body {
 
 .scroll-prompt span {
   position: absolute;
-  border-left: 3px solid #f811e9;
-  border-bottom: 3px solid #c828e0;
+  border-left: 3px solid #00ff6e;
+  border-bottom: 3px solid #00b3ff;
   transform: translateX(-50%) rotate(-45deg);
   opacity: 0.7;
   animation: breathe 2.5s ease-in-out infinite;
   user-select: none;
+
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.507))
+          drop-shadow(0 0 8px rgba(0, 0, 0, 0.347));
 }
 
 /* sizes and vertical positions */
@@ -292,6 +291,7 @@ body {
   text-transform: uppercase;
   background: linear-gradient(to right, #f2ff00 0%, #ff4800 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow:
     0 0 8px #ffd700a2,
@@ -452,6 +452,7 @@ body {
   font-size: clamp(2rem, 2.6vw, 2.5rem);
   background: linear-gradient(to right, #f2ff00 0%, #ff4800 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow:
     0 0 8px #ffd700a2,
@@ -513,6 +514,7 @@ body {
   font-size: clamp(0.9rem, 1.8vw, 1.8rem);
   background: linear-gradient(to right, #ff94fa 0%, #bd9aff 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow:
     0 0 8px #ff00d9a2,
@@ -747,6 +749,7 @@ body {
     text-transform: uppercase;
     background: linear-gradient(to right, #f2ff00 0%, #ff4800 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow:
       0 0 8px #ffd700a2,
@@ -978,7 +981,7 @@ body {
   overflow: hidden;
 }
 
-.CoreCommittee, .WebsiteTeam {
+.CoreCommittee, .TechTeam {
   position: relative;
   top: 4rem;
   height: 38.5vw;
@@ -993,8 +996,8 @@ body {
   width: 21vw;
 }
 
-.WebsiteTeam {
-  margin-top: 20rem;
+.TechTeam {
+  margin-top: 10lvh;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -1013,52 +1016,47 @@ body {
   box-sizing: border-box;
 }
 
-.CoreColumn.Left {
+.CoreColumn.Focus {
   gap: 0rem;
   flex: 1.2;
   flex-direction: column;
+  align-items: center;
 }
 
-.CoreColumn.Right {
-  gap: 2rem;
-  flex: 0.8;
+.CoreColumn.Grid {
+  gap: 0.8rem;
+  flex: 0.4;
   flex-wrap: wrap;
 }
 
 
+
 .WTCardContainer {
   min-height: 60vh;
+  width: 90svw;
   margin-top: -4rem;
   border-radius: 50px;
   display: flex;
-  flex: 1.8;
+  flex-direction: row;
   z-index: 0;
-  gap: 2rem;
-  justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(3px);
-  padding: 1rem 4rem;
-  padding-top: 5vh !important;
+  padding: 1rem 1rem;
+  padding-top: 5vh ;
 }
 
 .WTCard {
   z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s ease, transform 0.8s ease;
-}
-
-.WTCard.left {
-  transform: translate(420px, -100px);
-
-}
-.WTCard.right {
-  transform: translate(-420px, -100px);
-}
-
-.WTCard.fly-in {
-  transform: translateX(0);
-  opacity: 1;
+  height: 67%;
+  width: 80%;
+  display: flex;
+  flex: 1;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .HoverPrompt {
@@ -1070,84 +1068,6 @@ body {
   margin-top: 1rem;
 }
 
-.wtBg {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(18px);
-  padding: 1.5rem;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
-  border: 2px solid #ffd700;
-  color: white;
-  font-family: 'Kaivalya', sans-serif;
-  transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
-  transform-style: preserve-3d;
-  transform: perspective(1000px);
-}
-
-
-/* .WTCard:hover .wtBg {
-  animation: crazySpin 1.2s ease forwards;
-  transform: perspective(1000px) rotateX(8deg) rotateY(-8deg) scale(1.07) translateY(-10px);
-  box-shadow:
-    0 0 25px rgba(255, 255, 255, 0.382),
-    0 20px 40px rgba(0, 0, 0, 0.4),
-    inset 0 0 30px rgba(255, 255, 255, 0.05);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  border: 2.5px solid #ff9900;
-  background: rgba(255, 255, 255, 0.09);
-  backdrop-filter: blur(16px);
-}
-
-@keyframes crazySpin {
-  0% {
-    transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1);
-    opacity: 0.5;
-  }
-  50% {
-    transform: perspective(1000px) rotateY(180deg) rotateX(10deg) scale(1.05);
-    opacity: 0.8;
-  }
-  100% {
-    transform: perspective(1000px) rotateY(360deg) rotateX(8deg) scale(1.07) translateY(-10px);
-    opacity: 1;
-  }
-} */
-
-
-
-
-
-.wtName {
-  font-size: clamp(0.9rem, 2.2vw, 2.2rem);
-  font-weight: 600;
-  margin-bottom: clamp(0.5rem, 1vw, 1rem);
-  text-shadow: 0 0 5px #972a1c99;
-  transform: translateZ(30px);
-  text-align: left;
-}
-
-.wtDetails {
-  font-size: clamp(0.8rem, 1.4vw, 1.4rem);
-  margin-bottom: auto;
-  opacity: 0.9;
-  transform: translateZ(30px);
-}
-
-.wtFooter {
-  margin-top: clamp(0.75rem, 1.7vw, 1.7rem);
-  font-size: clamp(0.425rem, 1vw, 1rem);
-  letter-spacing: 1px;
-  color: #ccc;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 1rem;
-  width: 100%;
-  transform: translateZ(30px);
-}
-
 
 .SectionTitle {
   display: flex;
@@ -1155,28 +1075,38 @@ body {
   flex: 0.2;
   justify-content: center;
   align-items: center;
-  font-family: 'Kaivalya', sans-serif;
-  font-size: clamp(2rem, 2.6vw, 2.5rem);
-  color: #ffd700;
-  border-radius: 30px;
-  border: 2px solid #ffd700;
+  font-family: 'Uncial', sans-serif;
+  font-size: clamp(1.8rem, 2.6vw, 2.5rem);
+  background: linear-gradient(to right, #f2ff00 20%, #ff4800 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  text-shadow:
+    0 0 8px #ffd700a2,
+    0 0 16px #fff700a2,
+    0 0 24px #ffc800a2;
+  border-radius: 20px;
   padding: 0.2rem 3rem;  
-  box-shadow:
-    0 4px 16px 0 #ffd9008a,
+    box-shadow: 
+    0 0 12px rgb(215, 0, 107),
+    0 0 20px rgba(255, 0, 217, 0.2),
+    0 0 28px rgba(255, 0, 255, 0.1),
     inset 0 0 10px rgba(255, 255, 255, 0.3);
+  border: 3px solid rgb(167, 96, 156);
   backdrop-filter: blur(10px); /* <- The glass blur */
   -webkit-backdrop-filter: blur(10px); /* Safari support */
   transition: all 0.3s ease;
   box-sizing: border-box;
   z-index: 1;
 }
-.SectionTitle.website {
+.SectionTitle.Tech {
   width: 80%;
 }
 
 .Highlighted {
   display: flex;
-  width: 100%;
+  width: 95%;
   flex: 1.6;
   border-radius: 30px;
   transition: all 0.3s ease;
@@ -1185,23 +1115,15 @@ body {
 
 .CoreCard {
   display: flex;
-  flex: 0 1 calc(50% - 1rem);
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.1); /* frosted glass base */
-  box-shadow:
-    0 2px 8px 0 #ffd9008a,
-    inset 0 0 1px rgba(255, 255, 255, 0.3);
+  flex: 100%;
   transition: all 0.3s ease;
   box-sizing: border-box;
   cursor: pointer;
   background-size: contain;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center;
 }
 
 
@@ -1209,8 +1131,8 @@ body {
 .CoreCard:hover {
   transform: scale(1.03);
   box-shadow:
-    0 6px 20px #ffd900b4,
-    0 0 10px #fff3,
+    0 6px 20px #6a00ffb4,
+    0 0 10px rgba(255, 255, 255, 0.2),
     inset 0 0 1px rgba(255, 255, 255, 0.4);
 }
 
@@ -1222,7 +1144,7 @@ body {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: linear-gradient(120deg, transparent, rgba(255, 230, 0, 0.2), transparent);
+  background: linear-gradient(120deg, transparent, rgba(230, 0, 255, 0.2), transparent);
   transform: rotate(25deg);
   opacity: 0;
   pointer-events: none;
@@ -1244,37 +1166,37 @@ body {
   }
 }
 
-.Highlighted:hover {
-  transform: rotateY(8deg) scale(1.03);
+.Highlighted:hover, .WTCard:hover {
+  transform: scale(1.03);
 }
 
-@media (max-aspect-ratio: 0.7/1) {
+@media (max-aspect-ratio: 1/1){
    .CoreCommittee {
   flex-direction: column;
-  height: 155.56vw;
-  } 
-}
+  height: 80lvh;
+   }
 
-@media (max-aspect-ratio: 1.2/1) and (min-aspect-ratio: 0.7001/1){
-   .CoreCommittee {
-  flex-direction: column;
-  height: 115vh;
+
+  .Highlighted:hover, .WTCard:hover {
+  transform: scale(1) !important;
   }
-}
-@media (max-aspect-ratio: 1.2/1) {
 
   .CoreColumn {
     padding: 1rem 0rem;
     width: 100%
   }
 
-  .CoreColumn.Left {
+  .CoreColumn.Focus {
     flex: 1.3;
   }
 
-  .CoreColumn.Right {
+  .CoreColumn.Grid.Right {
     flex: 0.7;
     gap: 0.5rem
+  }
+  .CoreColumn.Grid.Left {
+    flex: 0;
+    gap: 0;
   }
 
   .CoreCard {
@@ -1284,27 +1206,17 @@ body {
   }
 
   .team-page{
-    height: 170lvh;
+    height: 300lvh;
   }
 
-  .HoverPrompt {
-    opacity: 0;
+  .TechTeam {
+    margin-top: 50lvh;
   }
-
-  .WTCard.left {
-    transform: translate(0, -0);
-
-  }
-  .WTCard.right {
-    transform: translate(0, -0);
-  } 
 
   .WTCardContainer {
     flex-direction: column;
-  }
-
-  .wtFiller {
-    width: 45vw
+    min-height: 90lvh;
+    gap: 1rem;
   }
 }
 

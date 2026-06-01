@@ -4,7 +4,7 @@ export default function Team() {
 
   container.innerHTML = `
     <div class="homeBg"></div>
-    <!-- <section class="CoreCommittee">
+    <section class="CoreCommittee">
       
       <div class="scroll-prompt team">
         <span></span>
@@ -13,48 +13,36 @@ export default function Team() {
       </div>
 
 
-      <div class="CoreColumn Left">
+      <div class="CoreColumn Grid Left">
+        <div class="CoreCard Shubhashree" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Shubhashree.webp'); "></div>
+        <div class="CoreCard Riddhiman" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Riddhiman.webp'); "></div>
+        <div class="CoreCard Arush" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Arush.webp'); "></div>
+        <div class="CoreCard Aviral" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Aviral.webp'); "></div>
+      </div>
+      <div class="CoreColumn Focus">
         <div class="SectionTitle">
         Core Committee
         </div>
         <div class="Highlighted core">
         </div>
       </div>
-      <div class="CoreColumn Right">
-        <div class="CoreCard Sarengi" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Sarengi.webp'); "></div>
-        <div class="CoreCard Richa" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Richa.webp'); "></div>
-        <div class="CoreCard Madhav" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Madhav.webp'); "></div>
-        <div class="CoreCard Aryaman" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Aryaman.webp'); "></div>
-        <div class="CoreCard Soham" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Soham.webp'); "></div>
-        <div class="CoreCard Visesh" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Visesh.webp'); "></div>
-        <div class="CoreCard Urjjosan" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Urjjossan.webp'); "></div>
+      <div class="CoreColumn Grid Right">
+        <div class="CoreCard Sagarika" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Sagarika.webp'); "></div>
+        <div class="CoreCard Aahana" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Aahana.webp'); "></div>
+        <div class="CoreCard Saanvi" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Saanvi.webp'); "></div>
       </div>
     </section>
-    <section class="WebsiteTeam">
-      <div class="SectionTitle website">
+    <section class="TechTeam">
+      <div class="SectionTitle Tech">
         Website Team
       </div>
       <div class="WTCardContainer">
-        <div class="WTCard left">
-          <div class="wtBg">
-            <div class="wtName">Riddhiman Ghosh</div>
-            <div class="wtDetails">XI-D</div>
-            <div class="wtFooter">Innovation Club Core</div>
-          </div>
-          <div class="HoverPrompt"> HOVER </div>
-        </div>
-        <img class="wtFiller" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/wtFiller.png"></img>
-        <div class="WTCard right">
-          <div class="wtBg">
-            <div class="wtName">Aviral Kochgaway</div>
-            <div class="wtDetails">XI-B</div>
-            <div class="wtFooter">Innovation Club Core</div>
-          </div>
-          <div class="HoverPrompt"> HOVER </div>
-        </div>
-      </div>-->
+        <div class="WTCard Piyush" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Piyush.webp'); "></div>
+        <div class="WTCard Srinjani" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Srinjani.webp'); "></div>
+        <div class="WTCard Ujan" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Ujan.webp'); "></div>
+      </div>
     </section>
-    <div class="ComingSoon"></div>
+    <!--<div class="ComingSoon"></div>-->
   `;
 
   return container;

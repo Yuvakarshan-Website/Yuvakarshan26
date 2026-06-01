@@ -102,10 +102,11 @@ export default function Events() {
               <div class="card-title">Ink <br /> Echo</div>
             </a>
 
-            <a href="/VerbalCombat" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/14.webp" alt="Verbal Combat">
-              <div class="card-title">Verbal <br /> Combat</div>
+            <a href="/LexSuprema" data-link class="card">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/28.webp" alt="Lex Suprema">
+              <div class="card-title">Lex <br /> Suprema</div>
             </a>
+
           </div>
         </div>
 

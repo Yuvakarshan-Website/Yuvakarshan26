@@ -233,37 +233,88 @@ function render(path) {
   }
 
   if (normalized === '/team') {
-    let lastHiddenCard = null;
-    const coreCards = document.querySelectorAll('.CoreCard');
+let lastHiddenCard = null;
 
-    const sarengiCard = document.querySelector('.CoreCard.Sarengi');
-    if (sarengiCard) {
-      updateHighlighted(sarengiCard);
-      sarengiCard.style.display = 'none';
-      lastHiddenCard = sarengiCard;
-    }
-    coreCards.forEach(card => {
-      card.addEventListener('click', () => {
-        if (lastHiddenCard) {
-          lastHiddenCard.style.display = 'flex'; // restore previous
-        }
+const coreCards = [...document.querySelectorAll('.CoreCard')];
 
-        updateHighlighted(card); // update bg
-        card.style.display = 'none'; // hide current
-        lastHiddenCard = card;
-      });
-    });
+const leftGrid = document.querySelector('.CoreColumn.Left');
+const rightGrid = document.querySelector('.CoreColumn.Right');
 
-    function updateHighlighted(card) {
-      const highlight = document.querySelector('.Highlighted.core');
-      if (card && highlight) {
-        const bgImage = window.getComputedStyle(card).backgroundImage;
-        highlight.style.backgroundImage = bgImage;
-        highlight.style.backgroundSize = (isPortrait)?'100%':'90%';
-        highlight.style.backgroundRepeat = 'no-repeat';
-        highlight.style.backgroundPosition = 'bottom';
+function distributeCards() {
+
+  // clear both columns
+  leftGrid.innerHTML = '';
+  rightGrid.innerHTML = '';
+
+  // remove highlighted card from layout list
+  const visibleCards = coreCards.filter(
+    card => card !== lastHiddenCard
+  );
+
+  // alternate cards into left/right columns
+  visibleCards.forEach((card, index) => {
+
+    card.style.display = 'flex';
+    if(isPortrait) {rightGrid.appendChild(card);} 
+    else {
+      if (index % 2 === 0) {
+        leftGrid.appendChild(card);
+      } else {
+        rightGrid.appendChild(card);
       }
     }
+
+  });
+
+  // hide highlighted card
+  if (lastHiddenCard) {
+    lastHiddenCard.style.display = 'none';
+  }
+}
+
+const shubhashreeCard = document.querySelector('.CoreCard.Shubhashree');
+
+if (shubhashreeCard) {
+  updateHighlighted(shubhashreeCard);
+  lastHiddenCard = shubhashreeCard;
+}
+
+distributeCards();
+
+coreCards.forEach(card => {
+
+  card.addEventListener('click', () => {
+
+    if (card === lastHiddenCard) return;
+
+    updateHighlighted(card);
+
+    lastHiddenCard = card;
+
+    distributeCards();
+
+  });
+
+});
+
+function updateHighlighted(card) {
+
+  const highlight =
+    document.querySelector('.Highlighted.core');
+
+  if (card && highlight) {
+
+    const bgImage =
+      window.getComputedStyle(card).backgroundImage;
+
+    highlight.style.backgroundImage = bgImage;
+    highlight.style.backgroundSize =
+      (isPortrait) ? '100%' : '90%';
+
+    highlight.style.backgroundRepeat = 'no-repeat';
+    highlight.style.backgroundPosition = 'bottom';
+  }
+}
 
     VanillaTilt.init(document.querySelectorAll(".Highlighted"), {
       max: 15,
@@ -273,11 +324,11 @@ function render(path) {
       scale: 1.08, 
     });
 
-    VanillaTilt.init(document.querySelectorAll(".wtBg"), {
-      max: 22,
+    VanillaTilt.init(document.querySelectorAll(".WTCard"), {
+      max: 15,
       speed: 2000,
       glare: true,
-      "max-glare": 0.6,
+      "max-glare": 0,
       scale: 1.08,
     });
   }
