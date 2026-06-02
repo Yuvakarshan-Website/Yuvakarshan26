@@ -17,6 +17,14 @@ export default function NoticeBoard() {
                   </div>
                 </div>
             </div>
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">Event Details Changes<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 2nd June </span> <div class="accordion-arrow"></div></button>
+                  <div class="accordion-content">
+                    <p>A few events have updated their dresscode and number of participants. We apologise for the inconvenience.</p>
+                  </div>
+                </div>
+            </div>
             <!--
             <div class="notice">
                 <div class="accordion">
