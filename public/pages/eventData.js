@@ -1105,9 +1105,8 @@ export const eventData = {
   description: `
     <strong>General Guidelines:</strong><br>
     <ul>
-      <li>Participants: 8 per school</li>
-      <li>Co-ed schools: 3 girls, 3 boys, and 2 support members</li>
-      <li>Other schools: 6 models and 2 support members</li>
+      <li>Participants: 8-9 per school</li>
+      <li>6-7[Models/On stage members] + 2[Support Members]
       <li>Classes: IX–XII</li>
       <li>Each team will receive 2 minutes for setup and 5 minutes for performance.</li>
       <li>All performances must align with and reflect the given theme. Neon elements must be incorporated into the designs.</li>
