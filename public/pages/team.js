@@ -34,7 +34,7 @@ export default function Team() {
     </section>
     <section class="TechTeam">
       <div class="SectionTitle Tech">
-        Website Team
+        Tech Team
       </div>
       <div class="WTCardContainer">
         <div class="WTCard Piyush" style="background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Piyush.webp'); "></div>
