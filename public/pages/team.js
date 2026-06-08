@@ -6,7 +6,13 @@ export default function Team() {
     <div class="homeBg"></div>
     <section class="CoreCommittee">
       
-      <div class="scroll-prompt team">
+      <div class="scroll-prompt team R">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="scroll-prompt team L">
         <span></span>
         <span></span>
         <span></span>

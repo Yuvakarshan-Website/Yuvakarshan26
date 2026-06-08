@@ -24,18 +24,17 @@ body {
 }
 
 .homeBg, .eventDetailsBg, .events-page, .repsEvent, .galleryBg, .lotteryBg, .events-page-day-2, .events-page-buffer {
-  background-image: 
+  background-image: radial-gradient(
+      circle at top center,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(255, 255, 255, 0) 150%
+    ),
     url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/homeBackground.webp');
-  background-size: cover; 
-  backdrop-filter: blur(30px);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: rgb(0, 0, 0);
   overflow: hidden;
-}
-
-.homeBg::after, .eventDetailsBg::after, .events-page::after, .repsEvent::after, .galleryBg::after, .lotteryBg::after, .events-page-day-2::after, .events-page-buffer::after {
-  backdrop-filter: blur(30px);
 }
 
 .home {height: 625vh; padding: 2rem;}
@@ -78,6 +77,14 @@ body {
   cursor: pointer;
   z-index: 999;
   transition: all 0.2s;
+}
+
+.scroll-prompt.team.R{
+  left: 75%;
+}
+
+.scroll-prompt.team.L{
+  left: 25%;
 }
 
 .scroll-prompt.eventDetails {
@@ -191,8 +198,8 @@ body {
   margin-top: -1.08rem; /* -0.9rem × 1.2 */
     text-shadow:
     0 0 8px #ffd700a2,
-    0 0 16px #fff700a2,
-    0 0 24px #ffc800a2; /* ← original glow restored */
+    0 0 16px #fff70085,
+    0 0 24px #ffc80031; /* ← original glow restored */
 }
 
 .subtitle::before {
@@ -215,10 +222,6 @@ body {
   letter-spacing: 0.15rem; /* 2rem × 1.2 */
   text-transform: uppercase;
   position: relative;
-  text-shadow:
-    0 0 8px #00ff6676,
-    0 0 16px #b300ffa2,
-    0 0 24px #2200ffa2;
 }
 
 #canvasContainer {
@@ -295,8 +298,8 @@ body {
   -webkit-text-fill-color: transparent;
   text-shadow:
     0 0 8px #ffd700a2,
-    0 0 16px #fff700a2,
-    0 0 24px #ffc800a2;
+    0 0 16px #fff70063,
+    0 0 24px #ffc80032;
   backdrop-filter: blur(6px);
 
 }
@@ -320,6 +323,11 @@ body {
   backdrop-filter: blur(8px);
   justify-content: center;
   align-items: center;
+   border: 3px solid rgb(139, 96, 167);
+  box-shadow: 
+    0 0 12px rgb(193, 0, 215),
+    0 0 20px rgba(200, 0, 255, 0.2),
+    0 0 28px rgba(85, 0, 255, 0.1);
 }
 .HomeNav {
   top: 375vh;
@@ -456,8 +464,8 @@ body {
   -webkit-text-fill-color: transparent;
   text-shadow:
     0 0 8px #ffd700a2,
-    0 0 16px #fff700a2,
-    0 0 24px #ffc800a2;
+    0 0 16px #fff70063,
+    0 0 24px #ffc80032;
   padding: 10px 20px;
   border-radius: 30px;
   box-shadow: 
@@ -752,9 +760,9 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow:
-      0 0 8px #ffd700a2,
-      0 0 16px #fff700a2,
-      0 0 24px #ffc800a2;
+    0 0 8px #ffd700a2,
+    0 0 16px #fff70063,
+    0 0 24px #ffc80032;
   }
 .eventClickPrompt {
   position: fixed;
@@ -997,7 +1005,7 @@ body {
 }
 
 .TechTeam {
-  margin-top: 10lvh;
+  margin-top: 40lvh;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -1084,8 +1092,8 @@ body {
   color: transparent;
   text-shadow:
     0 0 8px #ffd700a2,
-    0 0 16px #fff700a2,
-    0 0 24px #ffc800a2;
+    0 0 16px #fff70063,
+    0 0 24px #ffc80032;
   border-radius: 20px;
   padding: 0.2rem 3rem;  
     box-shadow: 
@@ -1217,6 +1225,13 @@ body {
     flex-direction: column;
     min-height: 90lvh;
     gap: 1rem;
+  }
+
+  .scroll-prompt.team.L {
+    left: 50% !important;
+  }
+  .scroll-prompt.team.R {
+    display: none !important;
   }
 }
 
