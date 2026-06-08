@@ -19,9 +19,9 @@ export default function NoticeBoard() {
             </div>
                <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">Rep's event date changed !<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 8th June </span> <div class="accordion-arrow"></div></button>
+                  <button class="accordion-button">Reps' event date changed !<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 8th June </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
-                    <p>The Rep's event's date has been changed to 1st July. Please refer to the events page for further details.</p>
+                    <p>The Reps' event's date has been changed to 1st July. Please refer to the events page for further details.</p>
                   </div>
                 </div>
             </div>
