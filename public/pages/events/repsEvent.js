@@ -9,10 +9,10 @@ export default function repsEvent() {
     <button class="side-button right-button"><a href="/eventsDay1" data-link>Day 1 &rarr;</a></button> 
  
     <!-- page Center Label -->
-    <div class="page-label">REP'S EVENT</div>
+    <div class="page-label">REPS' EVENT</div>
     <div class="card-container">
       <div class="card-grid ">
-        <h1 class='get-ready'>Get Ready - A surprise event is in store for the representatives on the Rep's Meet on 19th June, 2K26!</h1>
+        <h1 class='get-ready'>Get Ready - A surprise event is in store for the representatives on the Reps' Meet on 1st July, 2K26!</h1>
       <div>
     </div>
     </section>
