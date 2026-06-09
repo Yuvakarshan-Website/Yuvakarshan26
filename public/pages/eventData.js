@@ -1467,6 +1467,9 @@ export const eventData = {
       <li>The event will consist of a competitive programming contest based on algorithmic problem-solving.</li>
       <li>Participants must attend in proper school uniform.</li>
       <li>Two computers per school will be provided by the host school; however, submissions will be permitted from only one system.</li>
+      <li>A LAN Connection is provided for the transfer of files between the two systems.</li>
+      <li>Participants are requested to carry requisite stationery for their rough work.</li>
+      <li>Pages for rough work will be provided</li>
       <li>No electronic devices are allowed inside the venue.</li>
       <li>The only permitted programming languages are:
         <ul>
