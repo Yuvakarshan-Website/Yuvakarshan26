@@ -1646,6 +1646,11 @@ export const eventData = {
       <li>Participants must maintain fair play throughout the event.</li>
       <li>The Discord server will be used for announcements, leads, queries, and hint approvals.</li>
       <li>Schools have the standard access to 45 leads (yes or no questions) per day with no additional point deductions.</li>
+      <li>Schools may involve as many participants as they wish to in the Discord server. <strong>However, only the 3 participants offcially regstered will be receiving the Certificate.</strong></li>
+      <li>The names confirmed for the trio at the registration shall not be altered under any circumstances.</li>
+      <li>If a team member is banned from the Discord server due to the violation of rules (Misconduct, Unfair Means, Inter-School Alliance, etc.), the remaining duo may however continue to participate and will not be diqualified.</li>
+      <li>School members will only be allowed to access the School private channel once the member is verified through confirmation by a registered member.</li>
+      <li>In case all three registered members are banned from the server, the school would <strong>not</strong> be permitted to continue.</li>
     </ul>
 
     <strong>Scoring System:</strong><br>

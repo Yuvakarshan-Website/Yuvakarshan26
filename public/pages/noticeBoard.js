@@ -19,9 +19,9 @@ export default function NoticeBoard() {
             </div>
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">CyberSynth Event Details Updated<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 9th June </span> <div class="accordion-arrow"></div></button>
+                  <button class="accordion-button">cyber.synth & cryptic.craft Event Details Updated<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 9th June </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
-                    <p>There are two updates regarding Stationery and File Transfers between the two provided systems. Please refer to the <a href="/CyberSynth" data-link style="color: #ffd700;">cyber.synth</a> page for further details.</p>
+                    <p>There are multiple updates regarding Participant rules. Please refer to the <a href="/CyberSynth" data-link style="color: #ffd700;">cyber.synth</a> & <a href="/CrypticCraft" data-link style="color: #ffd700;">cryptic.craft</a> pages for further details.</p>
                   </div>
                 </div>
             </div>
