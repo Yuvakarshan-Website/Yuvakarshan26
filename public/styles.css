@@ -328,6 +328,7 @@ body {
     0 0 12px rgb(193, 0, 215),
     0 0 20px rgba(200, 0, 255, 0.2),
     0 0 28px rgba(85, 0, 255, 0.1);
+  box-sizing: border-box;
 }
 .HomeNav {
   top: 375vh;
@@ -448,6 +449,7 @@ body {
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
 .dpsnHistTitle {
@@ -1834,8 +1836,8 @@ body {
   .nav-right {
     opacity: 0;
     position: absolute;
-    transform: translateY(-13rem);
-    right: 11rem;
+    transform: translateY(-25rem);
+    right: 12rem;
     transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
@@ -1882,7 +1884,7 @@ body {
   .nav-right.active {
     opacity: 1;
     transform: translateY(4rem);
-    right: 11rem;
+    right: 12rem;
   }
 
   .nav-hamburger.active :nth-child(1) {
