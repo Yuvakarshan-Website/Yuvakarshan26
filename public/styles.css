@@ -755,16 +755,17 @@ body {
 /* EVENTS PAGE */
 .get-ready {
     text-align: center;
-      font-family: 'Uncial', sans-serif !important;
+    font-family: 'Uncial', sans-serif !important;
     text-transform: uppercase;
+    font-size: clamp(1.5rem, 2vw,3rem);
     background: linear-gradient(to right, #f2ff00 0%, #ff4800 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow:
-    0 0 8px #ffd700a2,
-    0 0 16px #fff70063,
-    0 0 24px #ffc80032;
+    0 0 8px #ffd90074,
+    0 0 16px #fff70043,
+    0 0 24px #ffc80008;
   }
 .eventClickPrompt {
   position: fixed;
