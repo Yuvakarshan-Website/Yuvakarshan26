@@ -2143,14 +2143,17 @@ export const eventData = {
       <li>Only Classical music is permitted</li>
       <li>Original compositions are encouraged</li>
       <li>Participants must bring their own instruments</li>
-      <li>Permitted instruments: tabla, harmonium, flute, violin, cajon, tanpura, keyboard, guitar</li>
+      <li>Permitted instruments: tabla, harmonium, flute, violin, cajon, tanpura, keyboard, guitar, indian classical instruments</li>
+      <li>If less than 3 instruments are used, it will result in marks deduction</li>
       <li>No props or backing tracks permitted</li>
       <li>Deadlines:
         <ul>
           <li>Electronic tanpura request: 23rd June 2026</li>
           <li>Instrument list submission: 23rd June 2026</li>
           <li>Backdrop MP4 submission: 23rd June 2026</li>
+     
         </ul>
+      <li>Host school will provide default backdrop if none is submitted by 23rd June</li>
       </li>
       <li>Participants are responsible for instrument safety</li>
       <li>Obscene content leads to disqualification</li>
