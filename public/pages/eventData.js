@@ -986,7 +986,7 @@ export const eventData = {
       <li>No provocative, offensive, or inappropriate dance moves are permitted.</li>
       <li>Props are strictly prohibited.</li>
       <li>Music will be controlled solely by the event in-charges.</li>
-      <li>The decisions of the judges, crowd, and organizers will be final and binding.</li>
+      <li>The decisions of the judges and organizers will be final and binding.</li>
     </ul>
 
     <strong>Rounds:</strong><br>
@@ -1119,7 +1119,6 @@ export const eventData = {
       <li>Hard vocals are strictly prohibited.</li>
       <li>The use of background visuals to enhance stage formations and walks is strongly encouraged.</li>
       <li>Each team must submit a 5-minute integrated media file containing the audio track, background visuals, and lighting cues in MP4 or MOV format. The date of submission will be intimated later by the host school.</li>
-      <li>Teams must also carry a backup of the media file on a pen drive on the day of the event.</li>
       <li>Preparation time and venue details will be communicated on the day of the event.</li>
     </ul>
 
@@ -1280,7 +1279,7 @@ export const eventData = {
     <strong>Memorial Submission:</strong><br>
     <ul>
       <li>Each team must prepare two memorials — one for the Petitioner and one for the Respondent.</li>
-      <li>The maximum word limit for each memorial is 2000 words, excluding footnotes and index of authorities.</li>
+      <li>The maximum page limit for each memorial is 25 pages, excluding footnotes and index of authorities. Only Times New Roman font with Font Size 12 is accepted. Full citations for all referenced cases must be provided.</li>
       <li>Full citations for all referenced cases must be provided.</li>
       <li>In case of foreign authorities, the country of origin must be clearly mentioned.</li>
       <li>The Petitioner memorial cover must be blue, while the Respondent memorial cover must be red.</li>
@@ -1351,7 +1350,8 @@ export const eventData = {
       <li>Teams are encouraged to incorporate live music, clapping, chanting, and rhythm into their performance.</li>
       <li>All performances must be conducted live. Recorded audio, dialogues, background music, microphones, and background visuals are not permitted.</li>
       <li>Teams exceeding the allotted time limit may face penalties or disqualification.</li>
-      <li>A synopsis of the play must be submitted in advance. Date of submission will be intimated by the host school in due time.</li>
+      <li>Date of submission will be intimated by the host school in due time.</li>
+      <li>Participants are allowed to use props, as long as they are not flammable or dangerous.</li>
     </ul>
 
     <strong>Judgment Criteria:</strong><br>
@@ -1378,7 +1378,7 @@ export const eventData = {
       <li>Participants: 8–10 per school (including the director, scriptwriter, and editor)</li>
       <li>This is a submission-based event. Participants need not be present on the event days.</li>
       <li>Classes: IX–XII</li>
-      <li>Film Duration: 8–12 minutes; final submission in .mp4 format.</li>
+      <li>Film Duration: 8–12 minutes; final submission in .mp4 or .mov format.</li>
       <li>Any language is allowed, but English subtitles are mandatory for non-English dialogue.</li>
       <li>Use of stock footage, copyrighted material, or external media is prohibited.</li>
       <li>Content must adhere to school-appropriate standards. Political, religious, or inappropriate content will lead to disqualification.</li>
