@@ -9,10 +9,10 @@ import Navbar from './components/navbar.js';
 import repsEvent from './pages/events/repsEvent.js';
 import eventDetails from './pages/eventDetails.js';
 import LotteryResults from './pages/lotteryResults.js';
+import Registration from './pages/registration.js';
 
 import { Application } from 'https://unpkg.com/@splinetool/runtime@1.10.27/build/runtime.js';
 import NoticeBoard from './pages/noticeBoard.js';
-import DiveDeeper from './pages/divedeeper.js';
 
 let ClickPromptShown = false;
 
@@ -37,7 +37,7 @@ const routes = {
   '/team': Team,
   '/lotteryResults': LotteryResults,
   '/noticeBoard': NoticeBoard,
-  '/divedeeper': DiveDeeper,
+  '/registration': Registration,
 
   '/VocalVortex': eventDetails,
   '/MarketMake': eventDetails,

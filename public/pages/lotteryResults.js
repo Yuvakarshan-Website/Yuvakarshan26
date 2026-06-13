@@ -5,7 +5,7 @@ export default function LotteryResults() {
   container.innerHTML = `
     <div class="homeBg"></div>
       <section class="noticeBoardContainer">
-        <div class="YuvaHist Title additional lottery-header">LOTTERY RESULTS</div>
+        <div class="YuvaHist Title Headers">LOTTERY RESULTS</div>
         
         <!--<div class="notice-container result">
             <div class="lottery">

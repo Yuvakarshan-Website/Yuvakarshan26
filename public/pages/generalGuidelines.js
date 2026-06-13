@@ -6,7 +6,7 @@ export default function GeneralGuidelines() {
   container.innerHTML =`
     <div class="homeBg"></div>
     <section class="GuidelinesContainer">
-        <div class="YuvaHist Title">General Guidelines</div>
+        <div class="YuvaHist Title Headers">General Guidelines</div>
         <p class="YuvaHist">
         To ensure a smooth and memorable experience for all, students attending Yuvakarshan 2K26 are requested to strictly adhere to the following guidelines:
         </p>  

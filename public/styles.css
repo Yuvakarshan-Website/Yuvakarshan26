@@ -301,7 +301,27 @@ body {
     0 0 16px #fff70063,
     0 0 24px #ffc80032;
   backdrop-filter: blur(6px);
+}
 
+.YuvaHist.Title.Headers{
+  text-align: center;
+  font-size: clamp(2rem, 2.4vw, 3rem);
+}
+
+.YuvaHist.Title.Headers.Registration{
+  font-size: clamp(1.4rem, 1.8vw, 2.2rem);
+  width: 30vw;
+  padding: 1rem 1.1rem;
+}
+
+.YuvaHist.Title.Headers.RegistrationP{
+  font-size: clamp(1rem, 1.4vw, 2rem);
+  width: 30vw;
+  padding: 1rem 1.1rem;
+  box-shadow: 
+    0 0 12px rgb(82, 0, 215),
+    0 0 20px rgba(132, 0, 255, 0.2),
+    0 0 28px rgba(200, 0, 255, 0.1);
 }
 
 
@@ -1520,9 +1540,7 @@ body {
   gap: 0.2rem
 }
 
-.GuidelinesContainer .YuvaHist.Title {
-  text-align: center;
-}
+
 
 .phone-number {
   color: #ffd700
@@ -1559,12 +1577,6 @@ body {
   justify-content: flex-start;
   width: 100vw;
   gap: 0.2rem
-
-}
-
-.noticeBoardContainer .additional {
-  text-align: center;
-  font-size: clamp(1.5rem, 2.7vw, 2.7rem);
 }
 
 
@@ -1957,6 +1969,74 @@ body {
 .table th {
   font-weight: bold;
 }
+
+
+/* REGISTRATION */
+.regFormContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 70svh;
+  align-items: center;
+  justify-content: center;
+}
+.regFormWrapper {
+  flex: 0 0 50%;
+  height: 100%;
+  padding: 0 0;
+  margin-top: 2rem;
+  border-radius: 20px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  scrollbar-width: 0.8rem; /* Firefox */
+  scrollbar-color: rgb(212, 0, 255) rgba(0 0 0 / 0.1); /* thumb and track */
+  background: rgba(228, 208, 255, 0.248);
+  backdrop-filter: blur(30px);
+}
+.regForm {
+  display: block;
+  height: 4200vh;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.regNavContainer{
+  flex: 0 0 40%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40vw;
+  max-height: 70svh;
+  gap: 0.2rem;
+}
+
+.regEvent {
+  font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: clamp(0.8rem, 1vw, 1.3rem);
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(255, 255, 0, 0.311);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+
+
+
 
 
 /*preloader*/
