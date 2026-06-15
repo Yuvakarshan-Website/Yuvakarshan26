@@ -352,8 +352,152 @@ function updateHighlighted(card) {
       });
     }
   }
+  if (normalized === "/registration") {
+    initializeRegistration();
+  }
   if (normalized !== '/home' && normalized!== '/') {
   document.getElementById('loader').classList.add('fade-out');}
+}
+
+function initializeRegistration() {
+        const SEGMENTS = {
+
+      myth: {
+
+        formUrl:
+          "https://docs.google.com/forms/d/e/1FAIpQLSeEwLAxxGl5eKHzBRjaF4tjm1li9j5tHCxqqjyXfourYbLHyg/viewform?embedded=true",
+
+        events: [
+
+          "ace.racquets [Boys]",
+          "ace.racquets [Girls]",
+          "aqua.sprint [Boys]",
+          "aqua.sprint [Girls]",
+          "balance.base [Boys]",
+          "balance.base [Girls]",
+          "check.matrix",
+          "dojo.circuit",
+          "goal.blitz [Boys]",
+          "goal.blitz [Girls]",
+          "hoop.havoc",
+          "motion.havoc [Boys]",
+          "motion.havoc [Girls]",
+          "pingpong.prism",
+          "pitch.protocol",
+          "spike.attack [Boys]",
+          "spike.attack [Girls]",
+          "strike.glitch"
+
+        ]
+
+      },
+
+      magic: {
+
+        formUrl:
+          "https://docs.google.com/forms/d/e/1FAIpQLSdv46AkCmgwdTbsL66HpwOM89EH_4pL66jQlbCJdQwbIWGHbA/viewform?embedded=true",
+
+        events: [
+
+          "global.bites",
+          "quill.core",
+          "funk.faceoff",
+          "lyric.loop",
+          "raga.resonance",
+          "rhythm.rapture",
+          "market.make",
+          "yk.chronicles",
+          "rock.resonance",
+          "vocal.vortex",
+          "iq.interface",
+          "floral.fantasia",
+          "lumina.digitalis",
+          "im.provex",
+          "hues.shades",
+          "pop.portraiture"
+
+        ]
+
+      },
+
+      mayhem: {
+
+        formUrl:
+          "https://docs.google.com/forms/d/e/1FAIpQLScHbqPa56zaIFrJ7kRl_tde1WLEAJukXE95gvCFHQSp7Gc3Ng/viewform?embedded=true",
+
+        events: [
+
+          "runway.protocol",
+          "ink.echo",
+          "verbal.combat",
+          "lex.suprema",
+          "street.saga",
+          "silver.screen",
+          "synth.soirée",
+          "empire.rebuild",
+          "xport.exe",
+          "venture.warroom",
+          "appocalypse.dev",
+          "cyber.synth",
+          "circuit.circus",
+          "cryptic.craft",
+          "model.mint"
+
+        ]
+
+      }
+
+    };
+
+  const iframe = document.getElementById("registrationForm");
+  const eventNav = document.getElementById("eventNav");
+
+  if (!iframe || !eventNav) return;
+
+  function buildEventList(events) {
+
+    eventNav.innerHTML = "";
+
+    events.forEach(eventName => {
+
+      const button = document.createElement("button");
+
+      button.className = "regEvent";
+      button.textContent = eventName;
+
+      eventNav.appendChild(button);
+
+    });
+
+  }
+
+  function loadSegment(segment) {
+
+    const config = SEGMENTS[segment];
+
+    iframe.src = config.formUrl;
+
+    buildEventList(config.events);
+
+  }
+
+  document.querySelectorAll(".regTab").forEach(tab => {
+
+    tab.addEventListener("click", () => {
+
+      document
+        .querySelectorAll(".regTab")
+        .forEach(t => t.classList.remove("active"));
+
+      tab.classList.add("active");
+
+      loadSegment(tab.dataset.segment);
+
+    });
+
+  });
+
+  loadSegment("myth");
 }
 
 

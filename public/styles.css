@@ -309,7 +309,7 @@ body {
 }
 
 .YuvaHist.Title.Headers.Registration{
-  font-size: clamp(1.4rem, 1.8vw, 2.2rem);
+  font-size: clamp(1rem, 1.8vw, 2.2rem);
   width: 30vw;
   padding: 1rem 1.1rem;
 }
@@ -2032,6 +2032,54 @@ body {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+
+.regTabs{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 5%;
+}
+
+.regTab{
+  font-family: 'Montserrat', sans-serif;
+
+  padding: 0.9rem 2rem;
+
+  border-radius: 12px;
+  border: 2px solid rgba(255,255,255,0.15);
+
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.regTab:hover{
+  transform: translateY(-2px);
+}
+
+.regTab.active{
+  color: #ffd700;
+
+  border-color: #ffd700;
+
+  box-shadow:
+    0 0 10px rgba(255,217,0,0.7),
+    0 0 20px rgba(255,217,0,0.3);
+}
+
 
 
 
