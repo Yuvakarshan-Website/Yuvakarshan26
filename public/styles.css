@@ -1981,7 +1981,7 @@ body {
   justify-content: center;
 }
 .regFormWrapper {
-  flex: 0 0 50%;
+  width: 50vw;
   height: 100%;
   padding: 0 0;
   margin-top: 2rem;
@@ -1995,11 +1995,11 @@ body {
 }
 .regForm {
   display: block;
-  height: 4200vh;
+  height: 45000px;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 48lvw;
 }
 
 .regNavContainer{

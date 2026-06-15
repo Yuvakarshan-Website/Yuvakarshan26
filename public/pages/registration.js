@@ -3,7 +3,7 @@ export default function Registration() {
   const container = document.createElement('div');
   container.className = 'registration';
 
-  if (window.innerWidth < window.innerHeight) {
+  if (0.6*window.innerWidth < window.innerHeight) {
     container.innerHTML = `
       <div class="homeBg"></div>
       <section class="noticeBoardContainer">
