@@ -46,33 +46,5 @@ export default function Registration() {
 
     `;
 
-
-      
-  const accordionButtons = container.querySelectorAll('.accordion-button');
-
-  accordionButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      button.classList.toggle('active');
-      const content = button.nextElementSibling;
-      if (button.classList.contains('active')) {
-        content.style.maxHeight = content.scrollHeight + "px";
-        content.style.padding = "5px 20px";
-      } else {
-        content.style.maxHeight = null;
-        content.style.padding = "5px 20px";
-      }
-    });
-  });
-
-  const wrapper = container.querySelector('.regFormWrapper');
-
-  container.querySelectorAll('.regEvent').forEach(button => {
-    button.addEventListener('click', () => {
-      wrapper.scrollTo({
-        top: Number(button.dataset.scroll),
-        behavior: 'smooth'
-      });
-    });
-  });
   return container;
 }

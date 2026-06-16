@@ -360,93 +360,73 @@ function updateHighlighted(card) {
 }
 
 function initializeRegistration() {
-        const SEGMENTS = {
-
+    const SEGMENTS = {
       myth: {
-
-        formUrl:
-          "https://docs.google.com/forms/d/e/1FAIpQLSeEwLAxxGl5eKHzBRjaF4tjm1li9j5tHCxqqjyXfourYbLHyg/viewform?embedded=true",
-
+        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeEwLAxxGl5eKHzBRjaF4tjm1li9j5tHCxqqjyXfourYbLHyg/viewform?embedded=true",
         events: [
-
-          "ace.racquets [Boys]",
-          "ace.racquets [Girls]",
-          "aqua.sprint [Boys]",
-          "aqua.sprint [Girls]",
-          "balance.base [Boys]",
-          "balance.base [Girls]",
-          "check.matrix",
-          "dojo.circuit",
-          "goal.blitz [Boys]",
-          "goal.blitz [Girls]",
-          "hoop.havoc",
-          "motion.havoc [Boys]",
-          "motion.havoc [Girls]",
-          "pingpong.prism",
-          "pitch.protocol",
-          "spike.attack [Boys]",
-          "spike.attack [Girls]",
-          "strike.glitch"
-
+          { name: "ace.racquets [Boys]", scroll: 750 },
+          { name: "ace.racquets [Girls]", scroll: 1366 },
+          { name: "aqua.sprint [Boys]", scroll: 1990 },
+          { name: "aqua.sprint [Girls]", scroll: 2909 },
+          { name: "balance.base [Boys]", scroll: 3833 },
+          { name: "balance.base [Girls]", scroll: 4645 },
+          { name: "check.matrix", scroll: 5490 },
+          { name: "dojo.circuit", scroll: 6010 },
+          { name: "goal.blitz [Boys]", scroll: 6444 },
+          { name: "goal.blitz [Girls]", scroll: 8536 },
+          { name: "hoop.havoc", scroll: 10634 },
+          { name: "motion.havoc [Boys]", scroll: 12066 },
+          { name: "motion.havoc [Girls]", scroll: 13221 },
+          { name: "pingpong.prism", scroll: 14388 },
+          { name: "pitch.protocol", scroll: 15133 },
+          { name: "spike.attack [Boys]", scroll: 16863 },
+          { name: "spike.attack [Girls]", scroll: 18988 },
+          { name: "strike.glitch", scroll: 21114 }
         ]
-
       },
 
       magic: {
-
-        formUrl:
-          "https://docs.google.com/forms/d/e/1FAIpQLSdv46AkCmgwdTbsL66HpwOM89EH_4pL66jQlbCJdQwbIWGHbA/viewform?embedded=true",
-
+        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdv46AkCmgwdTbsL66HpwOM89EH_4pL66jQlbCJdQwbIWGHbA/viewform?embedded=true",
         events: [
-
-          "global.bites",
-          "quill.core",
-          "funk.faceoff",
-          "lyric.loop",
-          "raga.resonance",
-          "rhythm.rapture",
-          "market.make",
-          "yk.chronicles",
-          "rock.resonance",
-          "vocal.vortex",
-          "iq.interface",
-          "floral.fantasia",
-          "lumina.digitalis",
-          "im.provex",
-          "hues.shades",
-          "pop.portraiture"
-
+          { name: "global.bites", scroll: "global-bites" },
+          { name: "quill.core", scroll: "quill-core" },
+          { name: "funk.faceoff", scroll: "funk-faceoff" },
+          { name: "lyric.loop", scroll: "lyric-loop" },
+          { name: "raga.resonance", scroll: "raga-resonance" },
+          { name: "rhythm.rapture", scroll: "rhythm-rapture" },
+          { name: "market.make", scroll: "market-make" },
+          { name: "yk.chronicles", scroll: "yk-chronicles" },
+          { name: "rock.resonance", scroll: "rock-resonance" },
+          { name: "vocal.vortex", scroll: "vocal-vortex" },
+          { name: "iq.interface", scroll: "iq-interface" },
+          { name: "floral.fantasia", scroll: "floral-fantasia" },
+          { name: "lumina.digitalis", scroll: "lumina-digitalis" },
+          { name: "im.provex", scroll: "im-provex" },
+          { name: "hues.shades", scroll: "hues-shades" },
+          { name: "pop.portraiture", scroll: "pop-portraiture" }
         ]
-
       },
 
       mayhem: {
-
-        formUrl:
-          "https://docs.google.com/forms/d/e/1FAIpQLScHbqPa56zaIFrJ7kRl_tde1WLEAJukXE95gvCFHQSp7Gc3Ng/viewform?embedded=true",
-
+        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScHbqPa56zaIFrJ7kRl_tde1WLEAJukXE95gvCFHQSp7Gc3Ng/viewform?embedded=true",
         events: [
-
-          "runway.protocol",
-          "ink.echo",
-          "verbal.combat",
-          "lex.suprema",
-          "street.saga",
-          "silver.screen",
-          "synth.soirée",
-          "empire.rebuild",
-          "xport.exe",
-          "venture.warroom",
-          "appocalypse.dev",
-          "cyber.synth",
-          "circuit.circus",
-          "cryptic.craft",
-          "model.mint"
-
+          { name: "runway.protocol", scroll: "runway-protocol" },
+          { name: "ink.echo", scroll: "ink-echo" },
+          { name: "verbal.combat", scroll: "verbal-combat" },
+          { name: "lex.suprema", scroll: "lex-suprema" },
+          { name: "street.saga", scroll: "street-saga" },
+          { name: "silver.screen", scroll: "silver-screen" },
+          { name: "synth.soirée", scroll: "synth-soiree" },
+          { name: "empire.rebuild", scroll: "empire-rebuild" },
+          { name: "xport.exe", scroll: "xport-exe" },
+          { name: "venture.warroom", scroll: "venture-warroom" },
+          { name: "appocalypse.dev", scroll: "appocalypse-dev" },
+          { name: "cyber.synth", scroll: "cyber-synth" },
+          { name: "circuit.circus", scroll: "circuit-circus" },
+          { name: "cryptic.craft", scroll: "cryptic-craft" },
+          { name: "model.mint", scroll: "model-mint" }
         ]
-
       }
-
     };
 
   const iframe = document.getElementById("registrationForm");
@@ -455,20 +435,28 @@ function initializeRegistration() {
   if (!iframe || !eventNav) return;
 
   function buildEventList(events) {
-
     eventNav.innerHTML = "";
 
-    events.forEach(eventName => {
-
+    events.forEach(({ name, scroll }) => {
       const button = document.createElement("button");
+      const container = document.querySelector('.registration');
+      const wrapper = container.querySelector('.regFormWrapper');
 
       button.className = "regEvent";
-      button.textContent = eventName;
+      button.textContent = name;
+
+      // store scroll target
+      button.dataset.scroll = scroll;
+
+      button.addEventListener("click", () => {
+        wrapper.scrollTo({
+          top: Number(scroll),
+          behavior: "smooth"
+        });
+      });
 
       eventNav.appendChild(button);
-
     });
-
   }
 
   function loadSegment(segment) {
