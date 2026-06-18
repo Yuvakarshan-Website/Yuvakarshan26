@@ -21,30 +21,31 @@ export default function GeneralGuidelines() {
         • All schools are requested to check the <a href='/lotteryResults' class='notice-board-link' data-link>Lottery Results</a> of this website for viewing assigned themes and more.
         </p>
         
-        <!-- <p class="YuvaHist">
+        <p class="YuvaHist">
         <span class='header'>Order of Performance</span><br>
-        • The order of performance will be -  <br /> <br />
-
- ⁠1.	BGES School <br />
-	2.	DPS Megacity <br />
-	3.	DPS Newtown <br />
-	4.	DPS Ruby Park <br />
-	5.	Mangalam Vidya Niketan <br />
-	6.	Methodist School <br />
-	7.	Narayana School <br />
-	8.	NES Baguiati <br />
-	9.	NES Rajarhat <br />
-	10.	North Point <br />
-	11.	Pramila Memorial <br />
-	12.	Salt Lake School <br />
-	13.	St. Augustine School, Barrackpore <br />
-	14.	St. Augustine School, Shyamnagar <br />
-	15.	St. Francis Xaviers <br />
-	16.	St. Xavier’s Collegiate <br />
-	17.	The Future Foundation <br />
-	18.	The Heritage School <br />
-	19.	The Newtown School <br />
-        </p> -->
+        • The order of performance will be -  <br>
+          1. Calcutta Boys' School<br/>                                         
+          2. Calcutta Girls' High School<br>
+          3. Calcutta International School<br>
+          4. Delhi Public School Megacity<br>
+          5. Delhi Public School Ruby Park<br>
+          6. Indus Valley World School<br>
+          7. Mangalam Vidya Niketan<br>
+          8. Methodist School Dankuni<br>
+          9. Narayana School<br>
+          10. National English School, Baguihati<br>
+          11. National English School Rajarhat<br>
+          12. Shri Shikshayatan School<br>
+          13. Sri Ram Narayan Singh Memorial School Rajarhat<br>
+          14. St. Augustine's Day School Barrackpore<br>
+          15. St. Augustine's Day School Shyamnagar<br>
+          16. St. Francis Xavier School<br>
+          17. St. John's Diocesan Girls' H.S. School<br>
+          18. The Assembly of God Church School Tollygunge<br>
+          19. The Heritage School<br>
+          20. The Newtown School<br>
+          21. Delhi Public School Newtown<br>
+        </p>
 
          
         

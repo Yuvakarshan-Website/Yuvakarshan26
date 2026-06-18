@@ -362,7 +362,8 @@ function updateHighlighted(card) {
 function initializeRegistration() {
     const SEGMENTS = {
       myth: {
-        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeEwLAxxGl5eKHzBRjaF4tjm1li9j5tHCxqqjyXfourYbLHyg/viewform?embedded=true",
+        formUrl: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeEwLAxxGl5eKHzBRjaF4tjm1li9j5tHCxqqjyXfourYbLHyg/viewform?embedded=true",
+        height: "22000px",
         events: [
           { name: "ace.racquets [Boys]", scroll: 750 },
           { name: "ace.racquets [Girls]", scroll: 1366 },
@@ -381,50 +382,55 @@ function initializeRegistration() {
           { name: "pitch.protocol", scroll: 15133 },
           { name: "spike.attack [Boys]", scroll: 16863 },
           { name: "spike.attack [Girls]", scroll: 18988 },
-          { name: "strike.glitch", scroll: 21114 }
+          { name: "strike.glitch", scroll: 21114 },
+          { name: "SUBMIT", scroll: 21400 }
         ]
       },
 
       magic: {
-        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdv46AkCmgwdTbsL66HpwOM89EH_4pL66jQlbCJdQwbIWGHbA/viewform?embedded=true",
+        formUrl: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdv46AkCmgwdTbsL66HpwOM89EH_4pL66jQlbCJdQwbIWGHbA/viewform?embedded=true",
+        height: "12200px",
         events: [
-          { name: "global.bites", scroll: "global-bites" },
-          { name: "quill.core", scroll: "quill-core" },
-          { name: "funk.faceoff", scroll: "funk-faceoff" },
-          { name: "lyric.loop", scroll: "lyric-loop" },
-          { name: "raga.resonance", scroll: "raga-resonance" },
-          { name: "rhythm.rapture", scroll: "rhythm-rapture" },
-          { name: "market.make", scroll: "market-make" },
-          { name: "yk.chronicles", scroll: "yk-chronicles" },
-          { name: "rock.resonance", scroll: "rock-resonance" },
-          { name: "vocal.vortex", scroll: "vocal-vortex" },
-          { name: "iq.interface", scroll: "iq-interface" },
-          { name: "floral.fantasia", scroll: "floral-fantasia" },
-          { name: "lumina.digitalis", scroll: "lumina-digitalis" },
-          { name: "im.provex", scroll: "im-provex" },
-          { name: "hues.shades", scroll: "hues-shades" },
-          { name: "pop.portraiture", scroll: "pop-portraiture" }
+          { name: "global.bites", scroll: 651 },
+          { name: "quill.core", scroll: 1088 },
+          { name: "funk.faceoff", scroll: 1530 },
+          { name: "lyric.loop", scroll: 1972 },
+          { name: "raga.resonance", scroll: 2430 },
+          { name: "rhythm.rapture", scroll: 3843 },
+          { name: "market.make", scroll: 5420 },
+          { name: "yk.chronicles", scroll: 6313 },
+          { name: "rock.resonance", scroll: 6906 },
+          { name: "vocal.vortex", scroll: 8310 },
+          { name: "iq.interface", scroll: 9260 },
+          { name: "floral.fantasia", scroll: 9849 },
+          { name: "lumina.digitalis", scroll: 10288 },
+          { name: "im.provex", scroll: 10725 },
+          { name: "hues.shades", scroll: 11174 },
+          { name: "pop.portraiture", scroll: 11461 },
+          { name: "SUBMIT", scroll: 11700 }
         ]
       },
 
       mayhem: {
-        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScHbqPa56zaIFrJ7kRl_tde1WLEAJukXE95gvCFHQSp7Gc3Ng/viewform?embedded=true",
+        formUrl: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScHbqPa56zaIFrJ7kRl_tde1WLEAJukXE95gvCFHQSp7Gc3Ng/viewform?embedded=true",
+        height: "11400px",
         events: [
-          { name: "runway.protocol", scroll: "runway-protocol" },
-          { name: "ink.echo", scroll: "ink-echo" },
-          { name: "verbal.combat", scroll: "verbal-combat" },
-          { name: "lex.suprema", scroll: "lex-suprema" },
-          { name: "street.saga", scroll: "street-saga" },
-          { name: "silver.screen", scroll: "silver-screen" },
-          { name: "synth.soirée", scroll: "synth-soiree" },
-          { name: "empire.rebuild", scroll: "empire-rebuild" },
-          { name: "xport.exe", scroll: "xport-exe" },
-          { name: "venture.warroom", scroll: "venture-warroom" },
-          { name: "appocalypse.dev", scroll: "appocalypse-dev" },
-          { name: "cyber.synth", scroll: "cyber-synth" },
-          { name: "circuit.circus", scroll: "circuit-circus" },
-          { name: "cryptic.craft", scroll: "cryptic-craft" },
-          { name: "model.mint", scroll: "model-mint" }
+          { name: "runway.protocol", scroll: 654 },
+          { name: "ink.echo", scroll: 2182 },
+          { name: "verbal.combat", scroll: 2473 },
+          { name: "lex.suprema", scroll: 2753 },
+          { name: "street.saga", scroll: 3341 },
+          { name: "silver.screen", scroll: 4750 },
+          { name: "synth.soirée", scroll: 6454 },
+          { name: "empire.rebuild", scroll: 7046 },
+          { name: "xport.exe", scroll: 7483 },
+          { name: "venture.warroom", scroll: 7923 },
+          { name: "appocalypse.dev", scroll: 8362 },
+          { name: "cyber.synth", scroll: 8804 },
+          { name: "circuit.circus", scroll: 9238 },
+          { name: "cryptic.craft", scroll: 9831 },
+          { name: "model.mint", scroll: 10425 },
+          { name: "SUBMIT", scroll: 10900 }
         ]
       }
     };
@@ -462,8 +468,8 @@ function initializeRegistration() {
   function loadSegment(segment) {
 
     const config = SEGMENTS[segment];
-
     iframe.src = config.formUrl;
+    iframe.style.height = config.height;
 
     buildEventList(config.events);
 

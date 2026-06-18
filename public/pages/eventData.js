@@ -547,10 +547,11 @@ export const eventData = {
   logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/19.webp",
   segment: "Myth",
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Myth.webp",
-  subject: "PS5 Fifa",
+  subject: "PS<span style=\"font-family: Montserrat, sans-serif;\">5</span> Fifa",
   description: `
     <strong>Guidelines of the event:</strong><br>
     <ul>
+      <li>2 Participants per school</li>
       <li>Dress Code: School uniform.</li>
       <li>Controllers: Will be provided.</li>
       <li>Auction Timer: 30 seconds for most players; auto-sold to highest bidder if time exceeds. 1 minute will be provided for high-rated players.</li>
