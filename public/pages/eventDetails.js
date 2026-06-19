@@ -37,10 +37,11 @@ const [startColor, endColor] = style.gradient;
       >
         ${data.segment}
       </div>
-      <div class="logoContainer">
-        <img class="event-logo" src="${data.logo}"></img>
+      <div class="event-segmentFrame" style="background-image: url('${data.segmentFrame}'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+        <div class="logoContainer">
+          <img class="event-logo" src="${data.logo}"></img>
+        </div>
       </div>
-      <div class="event-segmentFrame" style="background-image: url('${data.segmentFrame}'); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
       <div class="event-name">${data.name}<div class="event-subject">${data.subject}</div></div>
       <div class="event-overlay">
         <div class="event-description">

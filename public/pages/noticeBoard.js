@@ -21,7 +21,7 @@ export default function NoticeBoard() {
                 <div class="accordion">
                   <button class="accordion-button">Multiple Event Details Updated<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th June </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
-                    <p>There are multiple updates regarding Participant rules. Please refer to the <a href="/RagaResonance" data-link style="color: #ffd700;">RagaResonance</a>, <a href="/FunkFaceoff"style="color: #ffd700;">FunkFaceoff</a>, <a href="/SilverScreen" data-link style="color: #ffd700;">SilverScreen</a>, <a href="/RunwayProtocol" data-link style="color: #ffd700;">RunwayProtocol</a>, <a href="/StreetSaga" data-link style="color: #ffd700;">StreetSaga</a>, <a href="/LexSuprema" data-link style="color: #ffd700;">LexSuprema</a>, pages for further details.</p>
+                    <p>There are multiple updates regarding Participant rules. Please refer to the <a href="/RagaResonance" data-link style="color: #ffd700;">RagaResonance</a>, <a href="/FunkFaceoff" data-link style="color: #ffd700;">FunkFaceoff</a>, <a href="/SilverScreen" data-link style="color: #ffd700;">SilverScreen</a>, <a href="/RunwayProtocol" data-link style="color: #ffd700;">RunwayProtocol</a>, <a href="/StreetSaga" data-link style="color: #ffd700;">StreetSaga</a>, <a href="/LexSuprema" data-link style="color: #ffd700;">LexSuprema</a>, pages for further details.</p>
                   </div>
                 </div>
             </div>

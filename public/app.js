@@ -102,6 +102,8 @@ function render(path) {
   app.innerHTML = '';
   app.appendChild(Page());
 
+  eventDetailsScroll();
+
   const scrollPrompt = document.querySelector('.scroll-prompt');
 
   scrollPrompt?.addEventListener("click", () => {
@@ -352,6 +354,7 @@ function updateHighlighted(card) {
       });
     }
   }
+
   if (normalized === "/registration") {
     initializeRegistration();
   }
@@ -584,6 +587,7 @@ document.addEventListener("DOMContentLoaded", observeCards);
 window.addEventListener("load", observeCards);
 const cardMutationObserver = new MutationObserver(() => observeCards());
 cardMutationObserver.observe(document.body, { childList: true, subtree: true });
+
 function eventDetailsScroll() {
   const desc = document.querySelector('.event-description');
   const scrollContainer = document.querySelector('.eventDetailsBg');
