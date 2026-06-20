@@ -55,7 +55,7 @@ export default function Home() {
         From the Yuvakarshan Directors' Desk
       </div>
       <p class="YuvaHist">
-         Derived from the Sanskrit term Yuvakarshan, meaning “the magnetic pull of the youth”, this fest serves as a tribute to youthful energy, intellectual curiosity, artistic expression, and an indomitable spirit. With Yuvakarshan 2K26, the fest evolves into a bold new dimension <b>Neon Nexus</b>, a vibrant convergence of electrifying energy, futuristic imagination and limitless connections. 
+         Derived from the Sanskrit term Yuvakarshan, meaning “the magnetic pull of the youth”, this fest serves as a tribute to youthful energy, intellectual curiosity, artistic expression, and an indomitable spirit. With Yuvakarshan 2K26, the fest evolves into a dynamic new dimension <b>Neon Nexus</b>, a vibrant convergence of electrifying energy, futuristic imagination and limitless connections. 
       </p>
       <p class="YuvaHist">
       Yuvakarshan 2K26 is envisioned as a dynamic fusion of creativity, competition, innovation, and youthful ambition. Under the electrifying banner of Neon Nexus, the fest is designed as a multidimensional platform where talent from every domain converges, connects, and shines. 
@@ -153,7 +153,7 @@ export default function Home() {
         </a>
         <div class="footerText">
         <p>&copy; ${new Date().getFullYear()} YUVAKARSHAN DPSN. All rights reserved.</p>
-        <div class="sign">Made by Riddhiman Ghosh and Aviral Kochgaway</div>
+        <div class="sign">Made by Riddhiman Ghosh, Aviral Kochgaway and Ujan Datta.</div>
         </div>
 
         

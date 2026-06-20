@@ -202,11 +202,11 @@ body {
     0 0 24px #ffc80031; /* ← original glow restored */
 }
 
-.subtitle::before {
+.title::after {
   content: "";
   position: absolute;
-  right: clamp(10rem, 13.54vw, 13.54rem);
-  top: clamp(8.5rem, 12.5vw, 12.5rem); /* 9.7rem × 1.2 */
+  right: clamp(11.5rem, 13.54vw, 14rem);
+  top: clamp(8.5rem, 12.5vw, 16rem); /* 9.7rem × 1.2 */
   width: clamp(21.2rem, 35vw, 33.8rem); /* 24vw × 1.2 */
   height: 2.4px; /* 2px × 1.2 */
   background: linear-gradient(to right, #ffd700, #ff9500);
@@ -250,7 +250,7 @@ body {
 
 .YuvaHistContainer {
   position: absolute;
-  top: 160vh;
+  top: 160svh;
   display: flex;
   flex-direction: column;
   right: 5rem;
@@ -258,7 +258,7 @@ body {
 }
 
 .YuvaHist {
-  font-size: clamp(0.7rem, 0.9rem + 0.5vw, 1.5rem);
+  font-size: clamp(0.7rem, 1.4vw, 1.6rem);
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s ease-out;
@@ -289,7 +289,7 @@ body {
     0 0 28px rgba(255, 0, 255, 0.1);
   border-radius: 10px;
    border: 3px solid rgb(167, 96, 156);
-  font-size: 2.4rem;
+  font-size: clamp(1.5rem, 2.4vw, 2.8rem);
   font-family: 'Uncial', sans-serif !important;
   text-transform: uppercase;
   background: linear-gradient(to right, #f2ff00 0%, #ff4800 100%);
@@ -336,7 +336,7 @@ body {
   position:absolute;
   left: 0;
   width: 100vw;
-  height:100vh;
+  height:100svh;
   border-radius: 40px;
   box-shadow: 
     10px 10px 30px #0000007e;
@@ -351,7 +351,7 @@ body {
   box-sizing: border-box;
 }
 .HomeNav {
-  top: 375vh;
+  top: 375lvh;
 }
 
 
@@ -637,10 +637,10 @@ body {
     margin-top: -0.6rem; 
   }
 
-  .subtitle::before {
+  .title::after {
     left: 5vw;
-    top: 22.5vw; /* 9.7rem × 1 */
-    width: 58vw; /* 24vw × 1.2 */
+    top: 22vw !important; /* 9.7rem × 1 */
+    width: 58vw !important; /* 24vw × 1.2 */
   }
 
   .tagline {

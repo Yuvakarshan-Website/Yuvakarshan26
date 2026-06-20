@@ -2149,12 +2149,12 @@ export const eventData = {
       <li>No props or backing tracks permitted</li>
       <li>Deadlines:
         <ul>
-          <li>Electronic tanpura request: 23rd June 2026</li>
-          <li>Instrument list submission: 23rd June 2026</li>
-          <li>Backdrop MP4 submission: 23rd June 2026</li>
+          <li>Electronic tanpura request: 3rd July 2026</li>
+          <li>Instrument list submission: 3rd July 2026</li>
+          <li>Backdrop MP4 submission: 3rd July 2026</li>
      
         </ul>
-      <li>Host school will provide default backdrop if none is submitted by 23rd June</li>
+      <li>Host school will provide default backdrop if none is submitted by 3rd July</li>
       </li>
       <li>Participants are responsible for instrument safety</li>
       <li>Obscene content leads to disqualification</li>

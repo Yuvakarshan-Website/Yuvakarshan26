@@ -104,19 +104,22 @@ function render(path) {
 
   eventDetailsScroll();
 
-  const scrollPrompt = document.querySelector('.scroll-prompt');
+const scrollPrompts = document.querySelectorAll('.scroll-prompt');
 
-  scrollPrompt?.addEventListener("click", () => {
-      window.scrollBy({ 
-      top: 1.3* window.innerHeight, 
-      behavior: 'smooth' 
+scrollPrompts.forEach(scrollPrompt => {
+  scrollPrompt.addEventListener('click', () => {
+    window.scrollBy({
+      top: 1.3 * window.innerHeight,
+      behavior: 'smooth'
     });
   });
+});
 
-  window.addEventListener('scroll', () => {
-    const scrollY = window.scrollY || window.pageYOffset;
-    const threshold = 0.2 * window.innerHeight;
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY || window.pageYOffset;
+  const threshold = 0.2 * window.innerHeight;
 
+  scrollPrompts.forEach(scrollPrompt => {
     const isActive = scrollPrompt.classList.contains('active');
 
     if (scrollY > threshold && !isActive) {
@@ -125,6 +128,7 @@ function render(path) {
       scrollPrompt.classList.remove('active');
     }
   });
+});
 
   //for events page
 
