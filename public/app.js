@@ -435,9 +435,9 @@ function initializeRegistration() {
           { name: "appocalypse.dev", scroll: 8362 },
           { name: "cyber.synth", scroll: 8804 },
           { name: "circuit.circus", scroll: 9238 },
-          { name: "cryptic.craft", scroll: 9831 },
-          { name: "model.mint", scroll: 10425 },
-          { name: "SUBMIT", scroll: 10900 }
+          { name: "cryptic.craft", scroll: 9655 },
+          { name: "model.mint", scroll: 10250 },
+          { name: "SUBMIT", scroll: 10725 }
         ]
       }
     };

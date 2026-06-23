@@ -206,7 +206,7 @@ body {
   content: "";
   position: absolute;
   right: clamp(11.5rem, 13.54vw, 14rem);
-  top: clamp(8.5rem, 12.5vw, 16rem); /* 9.7rem × 1.2 */
+  top: clamp(8.5rem, 12.5vw, 13rem); /* 9.7rem × 1.2 */
   width: clamp(21.2rem, 35vw, 33.8rem); /* 24vw × 1.2 */
   height: 2.4px; /* 2px × 1.2 */
   background: linear-gradient(to right, #ffd700, #ff9500);
@@ -305,7 +305,8 @@ body {
 
 .YuvaHist.Title.Headers{
   text-align: center;
-  font-size: clamp(2rem, 2.4vw, 3rem);
+  font-size: clamp(1.8rem, 2.4vw, 3rem);
+  padding: 1.4rem 2rem !important;
 }
 
 .YuvaHist.Title.Headers.Registration{
@@ -1466,14 +1467,17 @@ body {
 }
 
 .event-desc-title {
+  display: inline-block;
+
   font-size: clamp(1.1rem, 2.5vw, 2.5rem);
   color: #8d2012;
   text-align: center;
-  text-decoration: underline overline double 2px #972a1c;
-  text-underline-offset: 3px;
   font-family: 'Kaivalya', sans-serif;
-  width: 80vw;
-  text-align: center;
+
+  border-top: clamp(0.1rem, 0.5vw, 0.5rem) double #972a1c;
+  border-bottom: clamp(0.1rem, 0.5vw, 0.5rem) double #972a1c;
+
+  padding: 0.3rem 1rem;
 }
 
 .event-desc-text {
@@ -1620,7 +1624,7 @@ body {
   text-align: left;
   border: none;
   outline: none;
-  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
   font-weight: bold;
   transition: 0.3s ease;
   position: relative;
@@ -1688,6 +1692,17 @@ body {
 @media (max-aspect-ratio: 1/1) {
     .noticeBoardContainer{
     top: 11vh;
+  }
+
+    .accordion-arrow{
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-top:6px solid #ffd700;
+  }
+
+  .notice-container {
+    width: 90%;
+    padding: 1.6rem 0.5rem !important;
   }
 }
 

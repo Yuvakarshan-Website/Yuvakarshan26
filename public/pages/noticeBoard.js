@@ -11,7 +11,7 @@ export default function NoticeBoard() {
         
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">📌 Event Schedule and Registration Changes <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 16th May </span> <div class="accordion-arrow"></div></button>
+                  <button class="accordion-button">📌 Event Schedule and Registration Changes <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(0.7rem, 1.2vw, 1.2rem);'> on 16th May </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
                     <p>Events are currently being rearranged for better logistics. Capacity of Schools for each event may also change. Please adhere to all updates made on the website.</p>
                   </div>
@@ -19,7 +19,7 @@ export default function NoticeBoard() {
             </div>
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">Multiple Event Details Updated<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th June </span> <div class="accordion-arrow"></div></button>
+                  <button class="accordion-button">Multiple Event Details Updated<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(0.7rem, 1.2vw, 1.2rem);'> on 12th June </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
                     <p>There are multiple updates regarding Participant rules. Please refer to the <a href="/RagaResonance" data-link style="color: #ffd700;">RagaResonance</a>, <a href="/FunkFaceoff" data-link style="color: #ffd700;">FunkFaceoff</a>, <a href="/SilverScreen" data-link style="color: #ffd700;">SilverScreen</a>, <a href="/RunwayProtocol" data-link style="color: #ffd700;">RunwayProtocol</a>, <a href="/StreetSaga" data-link style="color: #ffd700;">StreetSaga</a>, <a href="/LexSuprema" data-link style="color: #ffd700;">LexSuprema</a>, pages for further details.</p>
                   </div>
@@ -27,7 +27,7 @@ export default function NoticeBoard() {
             </div>
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">cyber.synth & cryptic.craft Event Details Updated<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 9th June </span> <div class="accordion-arrow"></div></button>
+                  <button class="accordion-button">cyber.synth & cryptic.craft Event Details Updated<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(0.7rem, 1.2vw, 1.2rem);'> on 9th June </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
                     <p>There are multiple updates regarding Participant rules. Please refer to the <a href="/CyberSynth" data-link style="color: #ffd700;">cyber.synth</a> & <a href="/CrypticCraft" data-link style="color: #ffd700;">cryptic.craft</a> pages for further details.</p>
                   </div>
@@ -35,7 +35,7 @@ export default function NoticeBoard() {
             </div>
             <div class="notice">
               <div class="accordion">
-                <button class="accordion-button">Reps' event date changed !<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 8th June </span> <div class="accordion-arrow"></div></button>
+                <button class="accordion-button">Reps' event date changed !<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(0.7rem, 1.2vw, 1.2rem);'> on 8th June </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
                     <p>The Reps' event's date has been changed to 1st July. Please refer to the events page for further details.</p>
                   </div>
@@ -43,7 +43,7 @@ export default function NoticeBoard() {
             </div>
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">Event Details Changes<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 2nd June </span> <div class="accordion-arrow"></div></button>
+                  <button class="accordion-button">Event Details Changes<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(0.7rem, 1.2vw, 1.2rem);'> on 2nd June </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
                     <p>A few events have updated their dresscode and number of participants. We apologise for the inconvenience.</p>
                   </div>
