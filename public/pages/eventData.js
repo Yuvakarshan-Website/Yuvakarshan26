@@ -1746,117 +1746,94 @@ export const eventData = {
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
   subject: "Stock Exchange",
   description: `
-    <strong>General Guidelines:</strong><br>
-    <ul>
-      <li>Participants: 2 per school</li>
-      <li>Classes: IX–XII</li>
-    </ul>
+  <strong>General Guidelines:</strong><br>
+  <ul>
+    <li>Participants: 2 per school</li>
+    <li>Classes: IX–XII</li>
+    <li>Total 3 rounds to be conducted.</li>
+  </ul>
 
-    <strong>Round 1: IPO Auction</strong><br>
-    <ul>
-      <li>Objective: To strategically bid for shares and attain the most profitable position.</li>
-      <li>Participants will be presented with a set of companies along with a price band.</li>
-      <li>Each participant must submit bids specifying:
-        <ul>
-          <li>Price within the band</li>
-          <li>Quantity of shares</li>
-        </ul>
-      </li>
-      <li>Allocation will be based on the cut-off price and demand.</li>
-      <li>In case of higher bids above the base price, priority allocation will be given accordingly.</li>
-    </ul>
+  <strong>ROUND 1: IPO Auction</strong><br>
+  <ul>
+    <li>Objective: To strategically bid for shares and attain the most profitable position.</li>
+    <li>An initial virtual corpus will be allocated to each school.</li>
+    <li>Participants will be presented with company profiles along with a price band.</li>
+    <li>Each participant must submit bids specifying:
+      <ul>
+        <li>Price within the band</li>
+        <li>Quantity of shares</li>
+      </ul>
+    </li>
+    <li>Allocation will be based on the cut-off price and demand.</li>
+    <li>In case of higher bids above the base price, prorata allocation will be given accordingly.</li>
+    <li>The net realised value after Round 1 will be carried forward to Round 2.</li>
+    <li>8 of 12 schools will qualify for Round 2.</li>
+  </ul>
 
-    <strong>Round 2: Trading Simulation</strong><br>
-    <ul>
-      <li>Format: 6 trading rounds.</li>
-      <li>Each round:
-        <ul>
-          <li>2 minutes – News Analysis (no trading)</li>
-          <li>6 minutes – Live Trading</li>
-        </ul>
-      </li>
-      <li>Rules:
-        <ul>
-          <li>2% brokerage per transaction</li>
-          <li>1% idle cash tax every 20 minutes</li>
-          <li>Minimum corpus exhaustion threshold</li>
-        </ul>
-      </li>
-      <li>Participants must maintain a balanced portfolio:
-        <ul>
-          <li>Safe assets</li>
-          <li>Hedging instruments</li>
-          <li>High-risk stocks</li>
-        </ul>
-      </li>
-      <li>No eliminations will be there.</li>
-    </ul>
+  <strong>ROUND 2: LIVE TRADING SIMULATION</strong><br>
+  <ul>
+    <li>Duration: 60 minutes – Live Trading Round.</li>
+    <li>10 news snaps will be shared with all participating schools.</li>
+    <li>A list of 30 chosen shares will be announced on the event day.</li>
+    <li>Trading will be conducted based on live market prices on the event day.</li>
+    <li>Participants must trade in at least 6 shares and may perform a maximum of 6 transactions per share (buying and selling combined).</li>
+    <li>At least 70% of the corpus must be utilised.</li>
+    <li>2% brokerage will be charged per transaction.</li>
+    <li>Participants will trade on paper, simulating real-life trading with the assistance of brokers allotted by the host school.</li>
+    <li>At the end of Round 2, the net realised value will determine the top 4 schools with the highest portfolio amounts, who will qualify for Round 3.</li>
+  </ul>
 
-    <strong>Judgment Criteria:</strong><br>
-    <ul>
-      <li>Round 1:
-        <ul>
-          <li>Bidding Strategy</li>
-          <li>Decision Rationale</li>
-          <li>Portfolio Formation</li>
-          <li>Allocation Efficiency</li>
-          <li>Risk Assessment</li>
-          <li>Future Readiness</li>
-        </ul>
-      </li>
+  <strong>ROUND 3: Surprise Round</strong><br>
+  <ul>
+    <li>Guidelines will be declared on the event day.</li>
+  </ul>
 
-      <li>Round 2:
-        <ul>
-          <li>Decision-making</li>
-          <li>Risk management</li>
-          <li>Reaction to news/crises</li>
-          <li>Profitability</li>
-        </ul>
-      </li>
+  <strong>Judgment Criteria:</strong><br>
+  <ul>
+    <li>Round 1 &amp; Round 2: Judgement will be based on the net realised value at the end of each round.</li>
+    <li>Round 3: Guidelines will be declared on the event day.</li>
+  </ul>
+    `
+  },
+  '/XportExe': {
+    name: "Xport.exe",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/33.webp",
+    segment: "Mayhem",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
+    subject: "Shark Tank",
+    description: `
+      <strong>General Guidelines:</strong><br>
+      <ul>
+        <li>Participants: 2 per school</li>
+        <li>Classes: IX–XII</li>
+      </ul>
 
-      <li>The judges’ decisions are final and cannot be contested.</li>
-    </ul>
-  `
-},
-'/XportExe': {
-  name: "Xport.exe",
-  logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/33.webp",
-  segment: "Mayhem",
-  segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
-  subject: "Shark Tank",
-  description: `
-    <strong>General Guidelines:</strong><br>
-    <ul>
-      <li>Participants: 2 per school</li>
-      <li>Classes: IX–XII</li>
-    </ul>
+      <strong>Round 1: Pitching</strong><br>
+      <ul>
+        <li>Industry and target country will be allotted during the Representatives’ Meet.</li>
+        <li>Participants must create a pre-revenue startup idea and develop a unique product/service.</li>
+        <li>Each team will get 4+1 minutes for pitching. Exceeding the time limit will be penalized.</li>
+        <li>Extra deliverables will be appreciated.</li>
+        <li>Plagiarism will not be tolerated and will lead to immediate disqualification. The use of AI is strictly prohibited.</li>
+        <li>This is an elimination round where the top teams will qualify for Round 2.</li>
+        <li>Presentations must be in .pptx format and named after the school and event.</li>
+        <li>All presentations and pitches must be conducted in English.</li>
+      </ul>
 
-    <strong>Round 1: Pitching</strong><br>
-    <ul>
-      <li>Industry and target country will be allotted during the Representatives’ Meet.</li>
-      <li>Participants must create a pre-revenue startup idea and develop a unique product/service.</li>
-      <li>Each team will get 4+1 minutes for pitching. Exceeding the time limit will be penalized.</li>
-      <li>Extra deliverables will be appreciated.</li>
-      <li>Plagiarism will not be tolerated and will lead to immediate disqualification. The use of AI is strictly prohibited.</li>
-      <li>This is an elimination round where the top teams will qualify for Round 2.</li>
-      <li>Presentations must be in .pptx format and named after the school and event.</li>
-      <li>All presentations and pitches must be conducted in English.</li>
-    </ul>
+      <strong>Round 2: Surprise!</strong><br>
+      <ul>
+        <li>This is a surprise round and all details will be revealed on the day of the event.</li>
+        <li>Use of the internet is strictly prohibited. Any violation will result in immediate disqualification.</li>
+      </ul>
 
-    <strong>Round 2: Surprise!</strong><br>
-    <ul>
-      <li>This is a surprise round and all details will be revealed on the day of the event.</li>
-      <li>Use of the internet is strictly prohibited. Any violation will result in immediate disqualification.</li>
-    </ul>
-
-    <strong>Judgment Criteria (Round 1):</strong><br>
-    <ul>
-      <li>Clarity and Presentation</li>
-      <li>Market & Business Understanding</li>
-      <li>Innovation & Differentiation</li>
-      <li>Financial & Strategic Feasibility</li>
-      <li>Coherence during Q&A</li>
-    </ul>
+      <strong>Judgment Criteria (Round 1):</strong><br>
+      <ul>
+        <li>Clarity and Presentation</li>
+        <li>Market & Business Understanding</li>
+        <li>Innovation & Differentiation</li>
+        <li>Financial & Strategic Feasibility</li>
+        <li>Coherence during Q&A</li>
+      </ul>
   `
 },
 
