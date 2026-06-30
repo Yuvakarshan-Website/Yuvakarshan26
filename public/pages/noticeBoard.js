@@ -8,12 +8,11 @@ export default function NoticeBoard() {
         <div class="YuvaHist Title Headers">NOTICE BOARD</div>
         
         <div class="notice-container">
-        
-            <div class="notice">
+             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">📌 Event Schedule and Registration Changes <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(0.7rem, 1.2vw, 1.2rem);'> on 16th May </span> <div class="accordion-arrow"></div></button>
+                  <button class="accordion-button">Major Changes in the event details of venture.warroom<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(0.7rem, 1.2vw, 1.2rem);'> on 24th June </span> <div class="accordion-arrow"></div></button>
                   <div class="accordion-content">
-                    <p>Events are currently being rearranged for better logistics. Capacity of Schools for each event may also change. Please adhere to all updates made on the website.</p>
+                    <p>There are multiple updates regarding the details of <a href="/VentureWarroom" data-link style="color: #ffd700;">venture.warroom</a>. Please refer to the event page for further detials.</p>
                   </div>
                 </div>
             </div>

@@ -32,11 +32,6 @@ export default function EventsDay2() {
               <div class="card-title">Verbal <br /> Combat</div>
             </a>
 
-            <a href="/YkChronicles" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/17.webp" alt="YK Chronicles">
-              <div class="card-title">YK <br /> Chronicles</div>
-            </a>
-
             <a href="/PopPortraiture" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/32.webp" alt="Pop Portraiture">
               <div class="card-title">Pop <br /> Portraiture</div>

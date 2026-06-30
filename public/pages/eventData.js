@@ -1842,7 +1842,7 @@ export const eventData = {
   logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/logos/12.webp",
   segment: "Mayhem",
   segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files-26@main/Mayhem.webp",
-  subject: "Crisis Control",
+  subject: "Sales Relations",
   description: `
     <strong>General Guidelines:</strong><br>
     <ul>
